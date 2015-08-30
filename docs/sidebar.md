@@ -1,0 +1,32 @@
+- [Home](/readme.md)
+- [Articles](/articles/readme.md)
+- [Contact](/contact.md)
+- **Social**
+  - [LinkedIn](https://www.linkedin.com/in/victornogueira)
+  - [GitHub](https://github.com/felladrin)
+  - [Twitter](https://twitter.com/felladrin)
+- **Images & Videos**
+  - [Civitai Gallery](https://civitai.com/user/Felladrin)
+  - [Published Videos](https://www.youtube.com/user/Felladrin/videos)
+  - [Watched Movies](https://www.imdb.com/user/ur36368230/ratings?sort=your_rating,desc&ratingFilter=0&mode=grid&lastPosition=0)
+- **Tools**
+  - [PickBetterPack](https://pickbetterpack.com "Discover similar packages from your package.json dependencies.")
+  - [LinkedTimer](https://linkedtimer.com "Real-time collaborative timer to use with your team in VS Code or in the browser.")
+  - [LinkedIn AutoConnect](https://github.com/felladrin/linkedin-autoconnect-chrome-extension "Chrome extension that automatically clicks all 'Connect' buttons available on LinkedIn 'Search People' and 'People You May Know' pages.")
+  - [Ratio Calculator](https://felladrin.github.io/ratio-calculator "Quickly find out the right value for a proportion.")
+  - [Testing Grid](https://felladrin.github.io/testing-grid "Load several instances of a multiplayer-app in a single page")
+  - [Bcrypt Sandbox](https://felladrin.github.io/bcrypt-sandbox "A tool for encrypting and validating text with bcrypt")
+  - [Windows Timelapse Toolkit](https://github.com/felladrin/windows-timelapse-toolkit "Windows toolkit for taking periodic screenshots and generate a time-lapse video from them.")
+  - [More on GitHub »](https://github.com/felladrin?tab=repositories&q=archived%3Afalse&type=&language=&sort=stargazers)
+- **Games**
+  - [Cat Goric: Escape from the Warp Chamber](https://felladrin.itch.io/cat-goric-escape-from-the-warp-chamber)
+  - [Espolio](https://felladrin.itch.io/espolio)
+  - [Five for Christmas!](https://felladrin.itch.io/five-for-christmas)
+  - [Keysmith’s in a hurry!](https://felladrin.itch.io/keysmiths-in-a-hurry)
+  - [Back Read](https://felladrin.itch.io/back-read)
+  - [Coloblox](https://felladrin.itch.io/coloblox)
+  - [More on Itch.io »](https://felladrin.itch.io/)
+- **NPM Packages**
+  - [create-pubsub](https://npm.im/create-pubsub "A tiny Event Emitter and Observable Store.")
+  - [windows-cursor-icon](https://npm.im/windows-cursor-icon "Use Node.js to extract the image from Windows OS cursor")
+  - [More on NPM »](https://www.npmjs.com/~felladrin)
