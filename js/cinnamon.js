@@ -14,7 +14,7 @@ var api = {
   },
   repositories: function(callback){
     $.ajax({
-      url: "http://api.github.com/users/felladrin/repos?sort=pushed",
+      url: "https://api.github.com/users/felladrin/repos?sort=pushed",
       crossDomain: true
     }).done(callback);
   }
