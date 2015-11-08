@@ -1,0 +1,76 @@
+
+// font mixins
+@mixin typo_brand_strong {
+	font-family: $font_brand_strong;
+	font-weight: 400;
+}
+@mixin typo_brand_weak {
+	font-family: $font_brand_weak;
+	font-weight: 300;
+}
+
+// Material effect mixin
+
+@mixin materialButtonEffect($background_color){
+	@include materialButtonEffectAdv($background_color, rgba(255,255,255, 0.2), .5s);
+}
+
+@mixin materialButtonEffectAdv($background_color, $layer_color, $duration){
+	$fill_m_1: $layer_color 1%;
+	$fill_m_2: transparent 1%;
+	background: -webkit-radial-gradient(circle, $fill_m_1, $fill_m_2);
+	background: -o-radial-gradient(circle, $fill_m_1, $fill_m_2);
+	background: -moz-radial-gradient(circle, $fill_m_1, $fill_m_2);
+	background: radial-gradient(circle, $fill_m_1, $fill_m_2);
+
+	@include cB(transition, background-size .3s ease);
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: $background_color;
+	background-size: 0%;
+
+	&:active, &.active{
+		@include cB(transition, background-size $duration ease);
+		background-size: 15000%;
+	}
+}
+
+
+// Cross-browsers mixins
+@mixin cB($property, $value){
+	-webkit-#{$property}: $value;
+	-moz-#{$property}: $value;
+	-ms-#{$property}: $value;
+	-o-#{$property}: $value;
+	#{$property}: $value;
+}
+
+
+@mixin clearfix(){
+	&:before,
+	&:after {
+	  display: table;
+	  content: " ";
+	}
+
+	&:after {
+	  clear: both;
+	}
+}
+
+
+
+// Breakpoints
+
+@mixin media($breakpoint){
+	@media (min-width: $breakpoint){
+		@content;
+	}
+}
+
+@mixin media_max($breakpoint){
+	@media (max-width: $breakpoint){
+		@content;
+	}
+}

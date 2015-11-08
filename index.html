@@ -1,6 +1,132 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="refresh" content="0;URL=https://github.com/felladrin"> 
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Victor Nogueira - Web Developer and Game Programmer</title>
+    <meta name="description" content="Victor Nogueira is an experienced web developer and game programmer. He writes top quality php and javascript code and shares it with pleasure.">
+    <script data-main="js/main" src="js/require.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/lib/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+</head>
+<body class="home">
+<div id="presenter"></div>
+<div id="contact" class="modal fade" data-backdrop="static" data-keyboard="true">
+    <div class="modal-dialog container">
+        <div class="modal-content">
+            <form action="https://docs.google.com/forms/d/1zGayNb5zicpGlD_mYiunk8A4-FLB7GSG-YEyxW-URfw/formResponse" class="form" method="POST" id="contact-form">
+                <div class="row">
+                    <div class="col-sm-6"> <input type="text" class="form-control" name="entry.605799379" placeholder="Type in your name" required> </div>
+                    <div class="col-sm-6"> <input type="email" class="form-control" name="entry.1273651383" placeholder="Type in your email address" required> </div>
+                </div>
+                <div class="row margin-bottom-2">
+                    <div class="col-sm-12"> <textarea class="form-control" name="entry.1634498" cols="30" rows="5" placeholder="What do you have in mind?" required></textarea> </div>
+                </div>
+                <div class="margin-bottom-4"> <button type="submit" class="btn btn-primary btn-material btn-outline"> Shoot</button> </div>
+                <p> You can also <a href="http://twitter.com/felladrin" class="link link-primary link-inline">tweet me</a> or <a href="mailto:felladrin@gmail.com" class="link link-primary link-inline">write me an email</a>. </p>
+            </form>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-default navbar-cinnamon navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+                <div class="logo"> <span class="typo-brand-weak logotype-about">about</span><span id="logotype-displayname" class="typo-brand-strong logotype-displayname">victor</span> </div>
+            </a>
+        </div>
+        <button onclick="$('#contact').modal('toggle');" class="link link-primary pull-right modal-closer no-padding navbar-btn"> <img src="images/email.svg" alt="Close"> <img src="images/cross.svg" class="hidden" alt="Close"></button>
+    </div>
+</nav>
+<div class="container" style="position:static;">
+    <section class="section window-sized section-size-5" style="min-height: 480px;" data-size-percentage="1.5">
+        <div id="contenteffect" class="section-header container no-padding" style="position: fixed; top: 30%;">
+            <h1 class="h2" id="prop"> <span id="proposition-displayname">Victor</span> is an experienced<br class="visible-xs"> web and game<br class="visible-xs"> developer </h1>
+            <p class="lead hidden-xs" id="par"> He writes top quality code with the same pleasure he shares it on github. </p>
+            <br class="visible-xs">
+            <div class="row" id="cta">
+                <div class="col-sm-4 col-xs-6"> <button class="btn btn-primary btn-outline btn-responsive modal-opener"> Let's talk</button> </div>
+                <div class="col-sm-5 no-padding-left col-xs-6"> <a href="http://github.com/alessiosantocs/alessiosantocs.github.io" class="link link-primary link-xs link-material" style="margin-top: 8px;"> Fork <span class="hidden-xs">this website</span> on github </a></div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-size-0 projects">
+        <div class="section-header">
+            <h4 class="slash">projects</h4>
+        </div>
+        <div class="project pressable">
+            <div class="row">
+                <div class="col-xs-12 col-sm-7"> <a href="project.html" class="link link-lg link-primary project-link"> Loading projects </a></div>
+                <div class="col-sm-5 text-right no-padding-left hidden-xs">
+                    <p class="project-date light no-margin">...</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-7">
+                    <p class="light margin-bottom project-description"> ... </p>
+                </div>
+                <div class="col-sm-5 text-right no-padding-left hidden-xs">
+                    <p class="light margin-bottom">more info</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-size-0">
+        <div class="section-header">
+            <h4 class="slash">career-experience</h4>
+        </div>
+        <div class="career-experience pressable">
+            <div class="row">
+                <div class="col-xs-7"> <a href="http://interativadigital.com.br/" target="_blank" class="link link-lg link-primary"> Interativa Publicidade Digital </a> </div>
+                <div class="col-xs-5 text-right no-padding-left">
+                    <div><label>2012 - Today</label></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-7">
+                    <p class="light margin-bottom"> Web Developer </p>
+                </div>
+                <div class="col-sm-5 text-right no-padding-left hidden-xs">
+                    <p class="light margin-bottom">more info</p>
+                </div>
+            </div>
+        </div>
+        <div class="career-experience pressable">
+            <div class="row">
+                <div class="col-xs-7"> <a href="http://ufrn.br" target="_blank" class="link link-lg link-primary"> UFRN </a> </div>
+                <div class="col-xs-5 text-right no-padding-left">
+                    <div><label>2010 - 2012</label></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-7">
+                    <p class="light margin-bottom"> Scientific Initiation Scholarship </p>
+                </div>
+                <div class="col-sm-5 text-right no-padding-left hidden-xs">
+                    <p class="light margin-bottom">more info</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-size-0 repositories">
+        <div class="section-header">
+            <h4 class="slash">github-repositories</h4>
+        </div>
+        <div class="repository pressable">
+            <p class="small light pull-right repository-fork"></p>
+            <a href="#" class="link link-lg link-primary repository-link"> Loading repos </a>
+            <p class="light margin-bottom repository-description"> ... </p>
+        </div>
+    </section>
+    <div class="footer margin-top-10">
+        <div class="clearfix">
+            <p class="pull-right no-margin-bottom"> <a href="images/victor.jpg" class="link link-primary" target="_blank">See my face</a> </p>
+            <p class="no-margin-bottom"> <a target="_blank" href="http://github.com/felladrin" class="link link-primary">Github</a> - <a target="_blank" href="http://twitter.com/felladrin" class="link link-primary">Twitter</a> - <a target="_blank" href="mailto:felladrin@gmail.com" class="link link-primary">Gmail</a> </p>
+        </div>
+        <p class="light margin-bottom"> Known for <span id="known-for">#php #javascript #csharp and #gameprogramming.</span> </p>
+    </div>
+</div>
+<div style="opacity:0;">Designed and developed by Alessio Santo</div>
+</body>
 </html>

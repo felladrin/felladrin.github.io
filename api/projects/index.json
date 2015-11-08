@@ -1,0 +1,10 @@
+{
+  "projects": [
+    {
+      "id": "ora-bolas",
+      "name": "Ora Bolas!",
+      "description": "My first Jam and also my first game made with PlayCanvas",
+      "date": "Dec 2014"
+    }
+  ]
+}
