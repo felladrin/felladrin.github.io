@@ -1,3 +1,5 @@
+[![Ora Bolas](images/projects/ora-bolas/ora-bolas-1.png)](images/projects/ora-bolas/ora-bolas-1.png)
+
 **Play the post-jam game at GameJolt:** [http://gamejolt.com/games/ora-bolas/41615](http://gamejolt.com/games/ora-bolas/41615)
 
 This was my first Jam, and also my first game made with PlayCanvas. I could say I was one of the few people who liked the theme as soon as it was released (“Entire game on One Screen”). I’ve found PlayCanvas just few weeks earlier and was very excited to check its potential. The Jam theme came in good time to make me try the game engine (one screen is all we need to try new engines!). And at the end, I was extremely happy with the result. PlayCanvas is now my primary choice for the next games.
@@ -10,11 +12,13 @@ The game was still lacking sounds and music. I’d use a song from Robert Del Na
 
 Time to submit! And a indescriptible relief after clicking the Save button!
 
-[![Ora Bolas](images/projects/ora-bolas/ora-bolas.png)](images/projects/ora-bolas/ora-bolas.png)
+[![Ora Bolas](images/projects/ora-bolas/ora-bolas-2.jpg)](images/projects/ora-bolas/ora-bolas-2.jpg)
 
 So, that’s the [result](http://ludumdare.com/compo/ludum-dare-31/?action=preview&uid=46558): a color-balls collecting game powered by PlayCanvas WebGL engine. It’s really that simple!
 
 It’s something beautiful to watch if you have a nice soundtrack on the background. You can spend a lot of time looking for the balls eternally falling.
+
+[![Ora Bolas](images/projects/ora-bolas/ora-bolas-3.jpg)](images/projects/ora-bolas/ora-bolas-3.jpg)
 
 #### Game Specifications, Experience and Feedback
 
