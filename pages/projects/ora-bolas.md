@@ -8,7 +8,7 @@ The game was still lacking sounds and music. I’d use a song from Robert Del Na
 
 Time to submit! And a indescriptible relief after clicking the Save button!
 
-![Ora Bolas](https://i.imgur.com/SvnHlIs.png)
+[![Ora Bolas](images/projects/ora-bolas/ora-bolas.png)](images/projects/ora-bolas/ora-bolas.png)
 
 So, that’s the [result](http://ludumdare.com/compo/ludum-dare-31/?action=preview&uid=46558): a color-balls collecting game powered by PlayCanvas WebGL engine. It’s really that simple!
 

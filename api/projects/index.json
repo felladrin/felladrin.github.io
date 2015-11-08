@@ -1,10 +1,23 @@
 {
-  "projects": [
+  "projects":
+  [
     {
       "id": "ora-bolas",
       "name": "Ora Bolas!",
       "description": "My first Jam and also my first game made with PlayCanvas",
       "date": "Dec 2014"
+    },
+    {
+      "id": "top-servers-brasil",
+      "name": "Top Servers Brasil",
+      "description": "First site listing Brazilian free and private game servers",
+      "date": "Ago 2014"
+    },
+    {
+      "id": "ultima-online-translation-tool",
+      "name": "UO Translation Tool",
+      "description": "Web tool for translating Ultima Online locales to portuguese",
+      "date": "Jan 2011"
     }
   ]
 }
