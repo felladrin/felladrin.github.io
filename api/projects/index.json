@@ -20,6 +20,12 @@
       "date": "Dec 2014"
     },
     {
+      "id": "random-seed",
+      "name": "Random Seed",
+      "description": "My first game made with Unity, a 2D survival space shooter.",
+      "date": "Oct 2014"
+    },
+    {
       "id": "top-servers-brasil",
       "name": "Top Servers Brasil",
       "description": "First site listing Brazilian free and private game servers",
