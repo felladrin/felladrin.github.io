@@ -32,6 +32,12 @@
       "date": "Apr 2014"
     },
     {
+      "id": "ufrn-grades-calculator",
+      "name": "UFRN Grades Calculator",
+      "description": "App to calculate grades of UFRN.",
+      "date": "Jan 2013"
+    },
+    {
       "id": "ultima-online-translation-tool",
       "name": "UO Translation Tool",
       "description": "Web tool for translating Ultima Online locales to portuguese",
