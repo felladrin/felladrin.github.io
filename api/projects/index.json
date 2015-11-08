@@ -2,6 +2,12 @@
   "projects":
   [
     {
+      "id": "uo-portal",
+      "name": "UO Portal",
+      "description": "My first Jam and also my first game made with PlayCanvas",
+      "date": "Jan 2015"
+    },
+    {
       "id": "ora-bolas",
       "name": "Ora Bolas!",
       "description": "My first Jam and also my first game made with PlayCanvas",
@@ -11,7 +17,7 @@
       "id": "top-servers-brasil",
       "name": "Top Servers Brasil",
       "description": "First site listing Brazilian free and private game servers",
-      "date": "Ago 2014"
+      "date": "Apr 2014"
     },
     {
       "id": "ultima-online-translation-tool",
