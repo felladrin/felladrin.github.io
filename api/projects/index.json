@@ -16,7 +16,7 @@
     {
       "id": "ora-bolas",
       "name": "Ora Bolas!",
-      "description": "My first Jam and also my first game made with PlayCanvas",
+      "description": "My first Jam and also my first game made with PlayCanvas.",
       "date": "Dec 2014"
     },
     {
@@ -30,6 +30,12 @@
       "name": "Top Servers Brasil",
       "description": "First site listing Brazilian free and private game servers",
       "date": "Apr 2014"
+    },
+    {
+      "id": "uo-is-not-dead",
+      "name": "UO Is Not Dead!",
+      "description": "A global listing of Ultima Online Freeshards.",
+      "date": "Oct 2013"
     },
     {
       "id": "ufrn-grades-calculator",
