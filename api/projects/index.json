@@ -54,6 +54,12 @@
       "name": "UO Translation Tool",
       "description": "Web tool for translating Ultima Online locales to portuguese",
       "date": "Jan 2011"
+    },
+    {
+      "id": "liberdade-uo",
+      "name": "Liberdade UO",
+      "description": "Web portal for Ultima Online brazilian community.",
+      "date": "Jun 2010"
     }
   ]
 }
