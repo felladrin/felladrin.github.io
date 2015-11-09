@@ -44,6 +44,12 @@
       "date": "Jan 2013"
     },
     {
+      "id": "book-sharing-platform",
+      "name": "Book Sharing Platform",
+      "description": "Web platform to manage book sharing inside a community.",
+      "date": "Oct 2012"
+    },
+    {
       "id": "dami",
       "name": "Damí",
       "description": "Flash game for Facebook developed with college classmates.",
@@ -52,7 +58,7 @@
     {
       "id": "ultima-online-translation-tool",
       "name": "UO Translation Tool",
-      "description": "Web tool for translating Ultima Online locales to portuguese",
+      "description": "Web tool for translating Ultima Online locales to portuguese.",
       "date": "Jan 2011"
     },
     {
