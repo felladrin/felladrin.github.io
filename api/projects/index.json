@@ -2,12 +2,6 @@
   "projects":
   [
     {
-      "id": "uo-portal",
-      "name": "UO Portal",
-      "description": "Ultima Online international freeshard listing.",
-      "date": "Jan 2015"
-    },
-    {
       "id": "five-for-christmas",
       "name": "Five For Christmas!",
       "description": "Second game made with PlayCanvas, with Christmas theme.",
@@ -30,6 +24,12 @@
       "name": "Top Servers Brasil",
       "description": "First site listing Brazilian free and private game servers",
       "date": "Apr 2014"
+    },
+    {
+      "id": "joinuo",
+      "name": "JoinUO",
+      "description": "Ultima Online international freeshard listing.",
+      "date": "Feb 2014"
     },
     {
       "id": "uo-is-not-dead",
