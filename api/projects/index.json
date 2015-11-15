@@ -2,6 +2,12 @@
   "projects":
   [
     {
+      "id": "pestterminator",
+      "name": "PestTerminator",
+      "description": "First game for the Global Game Jam, in five-members team.",
+      "date": "Jan 2015"
+    },
+    {
       "id": "five-for-christmas",
       "name": "Five For Christmas!",
       "description": "Second game made with PlayCanvas, with Christmas theme.",
