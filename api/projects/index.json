@@ -2,9 +2,15 @@
   "projects":
   [
     {
+      "id": "keysmiths-in-a-hurry",
+      "name": "Keysmith's in a hurry!",
+      "description": "Second game for Ludum Dare, in a four-members team.",
+      "date": "Apr 2016"
+    },
+    {
       "id": "pestterminator",
       "name": "PestTerminator",
-      "description": "First game for the Global Game Jam, in five-members team.",
+      "description": "First game for the Global Game Jam, in a five-members team.",
       "date": "Jan 2015"
     },
     {
