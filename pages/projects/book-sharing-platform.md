@@ -1,2 +1,0 @@
-[![Book Sharing Platform](images/projects/book-sharing-platform/book-sharing-platform.png)](images/projects/book-sharing-platform/book-sharing-platform.png)
-> Sistema de empréstimo de livros entre uma comunidade. Exemplo: Uma turma de um curso de graduação, que tenha interesse em emprestar/trocar livros entre si. O sistema permitia gerenciamento dos livros disponibilizados dos usuários, e enviava notificações quando um usuário fizesse solicitação de um empréstimo. O projeto foi feito feito em 2012, porém não chegou a ser colocado no ar.
