@@ -13,7 +13,7 @@ export class FooterContainer extends React.Component {
                 Victor Nogueira &copy; {new Date().getFullYear()}
                 <br />
                 <a
-                  href="https://github.com/felladrin/victornogueira.app"
+                  href="https://github.com/felladrin/felladrin.github.io"
                   target="_blank"
                 >
                   <Icon link={true} name="fork" />

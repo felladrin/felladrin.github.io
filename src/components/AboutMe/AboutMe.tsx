@@ -67,7 +67,7 @@ export class AboutMe extends React.Component {
         <p>
           Also, he has open-sourced this website, so you can{" "}
           <a
-            href="https://github.com/felladrin/victornogueira.app"
+            href="https://github.com/felladrin/felladrin.github.io"
             target="_blank"
           >
             <Icon name="code branch" />
