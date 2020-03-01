@@ -14,8 +14,10 @@ jobs:
           npm ci
           npm run build
       - name: Publish to GitHub Pages
-        uses: tsunematsu21/actions-publish-gh-pages@v1.0.0
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v1
         with:
-          dir: build
-          branch: master
-          token: ${{ secrets.ACCESS_TOKEN }}
+          target_branch: master
+          build_dir: build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
