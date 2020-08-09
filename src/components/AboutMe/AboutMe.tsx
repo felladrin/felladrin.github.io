@@ -55,7 +55,7 @@ export class AboutMe extends React.Component {
             </a>
           </li>
           <li>
-            <Icon name="imdb" /> has rated more than five hundred movies on{" "}
+            <Icon name="imdb" /> has rated a thousand movies on{" "}
             <a
               href="http://www.imdb.com/user/ur36368230/ratings?sort=your_ratings:desc"
               target="_blank"
