@@ -1,5 +1,0 @@
-/* Hack to fix width of GitHubFee
- * component on Mobile Devices */
-#gitHubFeedSegment > div {
-  min-width: 0 !important;
-}
