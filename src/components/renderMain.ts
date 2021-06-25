@@ -15,11 +15,6 @@ export function renderMain() {
     h("h2", { text: "Welcome, traveler!" });
     h("p", { text: "If you're here, you might be wondering a little more about Victor." });
     h("p", { text: "Maybe the following info can give you an overview:" });
-    h("p", () => {
-      h("span", { text: "Also, he has open-sourced this website, so you can " });
-      h("a", { text: "fork", attr: { href: "https://github.com/felladrin/felladrin.github.io", target: "_blank" } });
-      h("span", { text: " and customize it for yourself!" });
-    });
     h("ul", () => {
       spec({ style: { listStyleType: "none" } });
       h("li", () => {
@@ -60,6 +55,11 @@ export function renderMain() {
           attr: { href: "http://www.imdb.com/user/ur36368230/ratings?sort=your_ratings:desc", target: "_blank" },
         });
       });
+    });
+    h("p", () => {
+      h("span", { text: "Also, he has open-sourced this website, so you can " });
+      h("a", { text: "fork", attr: { href: "https://github.com/felladrin/felladrin.github.io", target: "_blank" } });
+      h("span", { text: " and customize it for yourself!" });
     });
   });
 }

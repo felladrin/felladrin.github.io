@@ -8,14 +8,16 @@ export function renderHeader() {
     h("nav", () => {
       h("ul", () => {
         h("li", () => {
-          h("img", { attr: { src: "images/avatar.jpg" }, style: { maxHeight: "24px", borderRadius: "500rem" } });
-          h("ul", () => {
-            h("li", () => {
-              h("img", { attr: { src: "images/avatar.jpg" } });
+          h("a", () => {
+            spec({
+              attr: { href: "images/avatar.jpg", title: "Click to see my face :)" } as HTMLAnchorElement as any,
+              style: { marginRight: "6px" },
+            });
+            h("img", {
+              attr: { src: "images/avatar.jpg" },
+              style: { maxHeight: "24px", borderRadius: "500rem" },
             });
           });
-        });
-        h("li", () => {
           h("span", { text: "Victor Nogueira" });
         });
         h("li", () => {
