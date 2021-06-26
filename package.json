@@ -1,33 +1,24 @@
 {
   "name": "victornogueira.app",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
-    "test": "react-scripts-ts test --env=jsdom"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
   },
   "dependencies": {
-    "axios": "^0.21.1",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-github-activity": "^1.0.2",
-    "react-scripts-ts": "^4.0.8",
-    "rss-parser": "^3.7.5",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.88.2"
+    "effector": "^21.8.12",
+    "effector-react": "^21.3.2",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-icons": "^4.2.0"
   },
   "devDependencies": {
-    "@types/jest": "^25.1.3",
-    "@types/react": "^16.9.23",
-    "@types/react-dom": "^16.9.5",
-    "@types/xml2js": "^0.4.5",
-    "typescript": "^3.8.3"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react-refresh": "^1.3.1",
+    "typescript": "^4.3.2",
+    "vite": "^2.3.8"
+  }
 }

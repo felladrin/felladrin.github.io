@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Victor Nogueira</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://classless.de/classless.css" />
+    <style>
+      html[data-theme="dark"] {
+        /* foreground   | background color */
+        --cfg: #cecbc4;
+        --cbg: #252220;
+        --cdark: #999;
+        --clight: #333;
+        --cmed: #566;
+        --clink: #1ad;
+        --cemph: #0b9;
+      }
+
+      .auto-dark {
+        filter: invert(1) hue-rotate(180deg);
+      }
+      .auto-dark img,
+      .auto-dark video {
+        filter: invert(1) hue-rotate(180deg);
+      }
+    </style>
+  </head>
+  <body>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>
