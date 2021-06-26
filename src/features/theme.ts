@@ -5,7 +5,7 @@ export enum Theme {
   Dark = "dark",
 }
 
-export const themeToggled = createEvent<MouseEvent>();
+export const themeToggled = createEvent();
 
 export const themeStore = createStore<Theme>((window.localStorage.getItem("data-theme") as Theme) ?? Theme.Dark).on(
   themeToggled,
