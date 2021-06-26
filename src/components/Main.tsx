@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaImdb, FaItchIo, FaLinkedin, FaMedium, FaTwitter, FaYoutube } from "react-icons/fa";
+import { CgGitFork } from "react-icons/cg";
 
 export function Main() {
   return (
@@ -9,7 +10,7 @@ export function Main() {
       <p>Maybe the following info can give you an overview:</p>
       <ul style={{ listStyleType: "none" }}>
         <li>
-          <FaLinkedin /> <span>he's open to new contacts on </span>
+          <FaLinkedin height="30px" /> <span>he's open to new contacts on </span>
           <a href="https://www.linkedin.com/in/victornogueira" target="_blank">
             LinkedIn
           </a>
@@ -55,6 +56,7 @@ export function Main() {
         <span>Also, he has open-sourced this website, so you can </span>
         <a href="https://github.com/felladrin/felladrin.github.io" target="_blank">
           fork
+          <CgGitFork />
         </a>
         <span> and customize it for yourself!</span>
       </p>
