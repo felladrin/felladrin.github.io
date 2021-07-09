@@ -1,17 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { IconContext } from "react-icons";
-import { Footer } from "./components/Footer";
-import { Header } from "./components/Header";
-import { Main } from "./components/Main";
+import { createElement } from "react";
+import { render } from "react-dom";
+import { App } from "./components/App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <IconContext.Provider value={{ style: { verticalAlign: "middle" } }}>
-      <Header />
-      <Main />
-      <Footer />
-    </IconContext.Provider>
-  </React.StrictMode>,
-  document.body.appendChild(document.createElement("div"))
-);
+render(createElement(App), document.body.appendChild(document.createElement("div")));
