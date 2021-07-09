@@ -12,6 +12,7 @@ jobs:
       - name: Build
         run: |
           npx pnpm install
+          npx pnpm run test
           npx pnpm run build
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
