@@ -17,7 +17,7 @@ export function Header() {
             Victor Nogueira
           </li>
           <li className="float-right sticky">
-            <a onClick={() => themeToggled()}>
+            <a onClick={() => themeToggled()} data-test-id="toggle-theme-button">
               {theme === Theme.Dark && (
                 <span title="Use Light Theme">
                   <FaSun />
