@@ -1,11 +1,11 @@
-const selector = {
-  nameInput: '[data-test-id="contact-form-name-input"]',
-  emailInput: '[data-test-id="contact-form-email-input"]',
-  messageTextarea: '[data-test-id="contact-form-message-textarea"]',
-  submitButton: '[data-test-id="contact-form-submit-button"]',
-};
-
 describe("ContactForm", () => {
+  const selector = {
+    nameInput: '[data-test-id="contact-form-name-input"]',
+    emailInput: '[data-test-id="contact-form-email-input"]',
+    messageTextarea: '[data-test-id="contact-form-message-textarea"]',
+    submitButton: '[data-test-id="contact-form-submit-button"]',
+  };
+
   beforeEach(() => {
     cy.visit("/");
   });
