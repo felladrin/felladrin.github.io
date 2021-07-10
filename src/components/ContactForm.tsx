@@ -1,14 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useRef } from "react";
 
 export function ContactForm() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const nameInput = useRef<HTMLInputElement>(null);
+  const emailInput = useRef<HTMLInputElement>(null);
+  const messageTextarea = useRef<HTMLTextAreaElement>(null);
   const [isSubmitButtonDisabled, setSubmitButtonDisabled] = useState(true);
 
-  useEffect(() => {
-    setSubmitButtonDisabled([name, email, message].some((field) => field.length === 0));
-  }, [name, email, message]);
+  const handleFieldValueChanged = () => {
+    setSubmitButtonDisabled(
+      [nameInput, emailInput, messageTextarea].some((htmlElementRef) => htmlElementRef.current?.value.length === 0)
+    );
+  };
 
   return (
     <form
@@ -24,8 +26,8 @@ export function ContactForm() {
               name="entry.605799379"
               type="text"
               placeholder="Type your name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
+              ref={nameInput}
+              onChange={handleFieldValueChanged}
               data-test-id="contact-form-name-input"
             />
           </div>
@@ -35,8 +37,8 @@ export function ContactForm() {
               name="entry.1273651383"
               type="text"
               placeholder="Type your email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              ref={emailInput}
+              onChange={handleFieldValueChanged}
               data-test-id="contact-form-email-input"
             />
           </div>
@@ -49,8 +51,8 @@ export function ContactForm() {
               placeholder="What do you have in mind?"
               rows={5}
               style={{ display: "block", width: "100%" }}
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
+              ref={messageTextarea}
+              onChange={handleFieldValueChanged}
               data-test-id="contact-form-message-textarea"
             ></textarea>
           </div>
