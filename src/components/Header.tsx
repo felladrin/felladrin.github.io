@@ -1,11 +1,7 @@
 import React from "react";
-import { themeStore, Theme, themeToggled } from "../features/theme";
-import { FaSun, FaMoon } from "react-icons/fa";
-import { useStore } from "effector-react";
+import { ToggleThemeButton } from "./ToggleThemeButton";
 
 export function Header() {
-  const theme = useStore(themeStore);
-
   return (
     <header>
       <nav>
@@ -17,18 +13,7 @@ export function Header() {
             Victor Nogueira
           </li>
           <li className="float-right sticky">
-            <a onClick={() => themeToggled()} data-test-id="toggle-theme-button">
-              {theme === Theme.Dark && (
-                <span title="Use Light Theme">
-                  <FaSun />
-                </span>
-              )}
-              {theme === Theme.Light && (
-                <span title="Use Dark Theme">
-                  <FaMoon />
-                </span>
-              )}
-            </a>
+            <ToggleThemeButton />
           </li>
         </ul>
       </nav>
