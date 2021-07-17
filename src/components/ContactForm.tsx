@@ -1,16 +1,15 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useCallback } from "react";
 
 export function ContactForm() {
   const nameInput = useRef<HTMLInputElement>(null);
   const emailInput = useRef<HTMLInputElement>(null);
   const messageTextarea = useRef<HTMLTextAreaElement>(null);
   const [isSubmitButtonDisabled, setSubmitButtonDisabled] = useState(true);
-
-  const handleFieldValueChanged = () => {
+  const handleFieldValueChanged = useCallback(() => {
     setSubmitButtonDisabled(
       [nameInput, emailInput, messageTextarea].some((htmlElementRef) => htmlElementRef.current?.value.length === 0)
     );
-  };
+  }, [nameInput, emailInput, messageTextarea]);
 
   return (
     <form
