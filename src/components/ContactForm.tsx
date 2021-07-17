@@ -1,33 +1,16 @@
-import React, { ChangeEvent } from "react";
-import { restore, createEvent, combine } from "effector";
-import { useStore } from "effector-react";
-
-const nameInputChanged = createEvent<ChangeEvent<HTMLInputElement>>();
-const emailInputChanged = createEvent<ChangeEvent<HTMLInputElement>>();
-const messageTextareaChanged = createEvent<ChangeEvent<HTMLTextAreaElement>>();
-
-const nameInputStore = restore(
-  nameInputChanged.map(({ target }) => target.value),
-  ""
-);
-const emailInputStore = restore(
-  emailInputChanged.map(({ target }) => target.value),
-  ""
-);
-const messageTextareaStore = restore(
-  messageTextareaChanged.map(({ target }) => target.value),
-  ""
-);
-const isSubmitButtonDisabledStore = combine({
-  nameInput: nameInputStore,
-  emailInput: emailInputStore,
-  messageTextarea: messageTextareaStore,
-}).map(({ nameInput, emailInput, messageTextarea }) =>
-  [nameInput, emailInput, messageTextarea].some(({ length }) => length === 0)
-);
+import React, { useState, useRef } from "react";
 
 export function ContactForm() {
-  const isSubmitButtonDisabled = useStore(isSubmitButtonDisabledStore);
+  const nameInput = useRef<HTMLInputElement>(null);
+  const emailInput = useRef<HTMLInputElement>(null);
+  const messageTextarea = useRef<HTMLTextAreaElement>(null);
+  const [isSubmitButtonDisabled, setSubmitButtonDisabled] = useState(true);
+
+  const handleFieldValueChanged = () => {
+    setSubmitButtonDisabled(
+      [nameInput, emailInput, messageTextarea].some((htmlElementRef) => htmlElementRef.current?.value.length === 0)
+    );
+  };
 
   return (
     <form
@@ -43,7 +26,8 @@ export function ContactForm() {
               name="entry.605799379"
               type="text"
               placeholder="Type your name"
-              onChange={nameInputChanged}
+              ref={nameInput}
+              onChange={handleFieldValueChanged}
               data-test-id="contact-form-name-input"
             />
           </div>
@@ -53,7 +37,8 @@ export function ContactForm() {
               name="entry.1273651383"
               type="text"
               placeholder="Type your email"
-              onChange={emailInputChanged}
+              ref={emailInput}
+              onChange={handleFieldValueChanged}
               data-test-id="contact-form-email-input"
             />
           </div>
@@ -66,7 +51,8 @@ export function ContactForm() {
               placeholder="What do you have in mind?"
               rows={5}
               style={{ display: "block", width: "100%" }}
-              onChange={messageTextareaChanged}
+              ref={messageTextarea}
+              onChange={handleFieldValueChanged}
               data-test-id="contact-form-message-textarea"
             ></textarea>
           </div>
