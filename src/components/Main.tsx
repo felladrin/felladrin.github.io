@@ -4,9 +4,9 @@ import { Intro } from "./Intro";
 
 export function Main() {
   return (
-    <main>
+    <div className="content-wrapper">
       <Intro />
       <ContactForm />
-    </main>
+    </div>
   );
 }

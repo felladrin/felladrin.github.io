@@ -7,9 +7,11 @@ import { Main } from "./Main";
 export const App = () => (
   <React.StrictMode>
     <IconContext.Provider value={{ style: { verticalAlign: "middle" } }}>
-      <Header />
-      <Main />
-      <Footer />
+      <div className="page-wrapper with-navbar with-navbar-fixed-bottom">
+        <Header />
+        <Main />
+        <Footer />
+      </div>
     </IconContext.Provider>
   </React.StrictMode>
 );

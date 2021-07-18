@@ -12,42 +12,45 @@ export function ContactForm() {
   }, [nameInput, emailInput, messageTextarea]);
 
   return (
-    <form
-      action="https://docs.google.com/forms/d/1zGayNb5zicpGlD_mYiunk8A4-FLB7GSG-YEyxW-URfw/formResponse"
-      method="POST"
-    >
-      <fieldset>
-        <legend>Get in touch!</legend>
-        <div className="row">
-          <div className="col">
-            <label>Your Name</label>
+    <div className="card">
+      <h2 className="card-title">Get in touch!</h2>
+      <form
+        action="https://docs.google.com/forms/d/1zGayNb5zicpGlD_mYiunk8A4-FLB7GSG-YEyxW-URfw/formResponse"
+        method="POST"
+      >
+        <div className="form-row row-eq-spacing-sm">
+          <div className="col-sm">
+            <label className="required">Your Name</label>
             <input
               name="entry.605799379"
               type="text"
               placeholder="Type your name"
+              className="form-control"
               ref={nameInput}
               onChange={handleFieldValueChanged}
               data-test-id="contact-form-name-input"
             />
           </div>
-          <div className="col">
-            <label>Your Email</label>
+          <div className="col-sm">
+            <label className="required">Your Email</label>
             <input
               name="entry.1273651383"
               type="text"
               placeholder="Type your email"
+              className="form-control"
               ref={emailInput}
               onChange={handleFieldValueChanged}
               data-test-id="contact-form-email-input"
             />
           </div>
         </div>
-        <div className="row">
+        <div className="form-row">
           <div className="col">
-            <label>Your Message</label>
+            <label className="required">Your Message</label>
             <textarea
               name="entry.1634498"
               placeholder="What do you have in mind?"
+              className="form-control"
               rows={5}
               style={{ display: "block", width: "100%" }}
               ref={messageTextarea}
@@ -56,11 +59,11 @@ export function ContactForm() {
             ></textarea>
           </div>
         </div>
-        <div className="row">
-          <div className="col">
+        <div className="form-row">
+          <div className="col text-right">
             <button
               type="submit"
-              style={{ margin: ".5em 0", width: "100%" }}
+              className="btn btn-primary btn-sm btn-block"
               disabled={isSubmitButtonDisabled}
               data-test-id="contact-form-submit-button"
             >
@@ -68,7 +71,7 @@ export function ContactForm() {
             </button>
           </div>
         </div>
-      </fieldset>
-    </form>
+      </form>
+    </div>
   );
 }

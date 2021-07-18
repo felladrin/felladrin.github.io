@@ -1,29 +1,16 @@
-import React, { useEffect, useCallback } from "react";
-import { FaSun, FaMoon } from "react-icons/fa";
-import { Theme } from "../enums/Theme";
-import { useLocalStorage } from "react-use";
+import React from "react";
+import { FaMoon } from "react-icons/fa";
+import halfmoon from "halfmoon";
 
-export function ToggleThemeButton() {
-  const [theme, setTheme] = useLocalStorage("data-theme", Theme.Dark);
-
-  const toggleTheme = useCallback(() => setTheme(theme === Theme.Dark ? Theme.Light : Theme.Dark), [theme]);
-
-  useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme as Theme);
-  }, [theme]);
-
-  return (
-    <a onClick={toggleTheme} data-test-id="toggle-theme-button">
-      {theme === Theme.Dark && (
-        <span title="Use Light Theme">
-          <FaSun />
-        </span>
-      )}
-      {theme === Theme.Light && (
-        <span title="Use Dark Theme">
-          <FaMoon />
-        </span>
-      )}
-    </a>
-  );
-}
+export const ToggleThemeButton = () => (
+  <div
+    className="btn btn-action mr-5"
+    onClick={() => halfmoon.toggleDarkMode()}
+    data-test-id="toggle-theme-button"
+    data-toggle="tooltip"
+    data-placement="left"
+    data-title="Toggle Dark Mode"
+  >
+    <FaMoon />
+  </div>
+);

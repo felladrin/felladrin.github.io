@@ -4,11 +4,11 @@ import { CgGitFork } from "react-icons/cg";
 
 export function Intro() {
   return (
-    <section>
-      <h2>Welcome, traveler!</h2>
+    <div className="card">
+      <h2 className="card-title">Welcome, traveler!</h2>
       <p>If you're here, you might be wondering a little more about Victor.</p>
       <p>Maybe the following info can give you an overview:</p>
-      <ul style={{ listStyleType: "none" }}>
+      <ul className="ml-20" style={{ listStyleType: "none" }}>
         <li>
           <FaLinkedin height="30px" /> <span>he's open to new contacts on </span>
           <a href="https://www.linkedin.com/in/victornogueira" target="_blank">
@@ -60,6 +60,6 @@ export function Intro() {
         </a>
         <span> and customize it for yourself!</span>
       </p>
-    </section>
+    </div>
   );
 }
