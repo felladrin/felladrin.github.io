@@ -5,7 +5,13 @@ describe("Theme", () => {
   };
 
   beforeEach(() => {
-    cy.visit("/");
+    cy.visit("/", {
+      onBeforeLoad(win) {
+        cy.stub(win, "matchMedia").withArgs("(prefers-color-scheme: dark)").returns({
+          matches: true,
+        });
+      },
+    });
   });
 
   it("starts with dark theme", () => {
