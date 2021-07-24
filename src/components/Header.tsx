@@ -4,10 +4,18 @@ import { ToggleThemeButton } from "./ToggleThemeButton";
 export function Header() {
   return (
     <nav className="navbar">
-      <a className="navbar-brand" href="images/avatar.jpg" title="Click to see my face :)">
-        <img src="images/avatar.jpg" className="border rounded-circle" />
+      <div className="navbar-brand">
+        <a
+          className="navbar-brand"
+          href="images/avatar.jpg"
+          data-toggle="tooltip"
+          data-placement="right"
+          data-title="Willing to see my face? :)"
+        >
+          <img src="images/avatar.jpg" className="border rounded-circle" />
+        </a>
         Victor Nogueira
-      </a>
+      </div>
       <div className="navbar-content ml-auto">
         <ToggleThemeButton />
       </div>
