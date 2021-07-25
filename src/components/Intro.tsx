@@ -1,5 +1,14 @@
 import React from "react";
-import { FaGithub, FaImdb, FaItchIo, FaLinkedin, FaMedium, FaTwitter, FaYoutube } from "react-icons/fa";
+import {
+  FaGithub,
+  FaImdb,
+  FaItchIo,
+  FaLinkedin,
+  FaMedium,
+  FaTwitter,
+  FaYoutube,
+  FaStackExchange,
+} from "react-icons/fa";
 import { CgGitFork } from "react-icons/cg";
 
 export function Intro() {
@@ -31,6 +40,12 @@ export function Intro() {
           <FaTwitter /> <span>has shared a lot of links on </span>
           <a href="https://twitter.com/felladrin" target="_blank">
             Twitter
+          </a>
+        </li>
+        <li>
+          <FaStackExchange /> <span>has posted some answers on </span>
+          <a href="https://stackexchange.com/users/1461447/felladrin?tab=accounts" target="_blank">
+            StackExchange
           </a>
         </li>
         <li>
