@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  FaGithub,
-  FaImdb,
-  FaItchIo,
-  FaLinkedin,
-  FaMedium,
-  FaTwitter,
-  FaYoutube,
-  FaStackExchange,
-} from "react-icons/fa";
+import { FaGithub, FaImdb, FaItchIo, FaLinkedin, FaTwitter, FaYoutube, FaStackExchange } from "react-icons/fa";
 import { CgGitFork } from "react-icons/cg";
 
 export function Intro() {
@@ -31,13 +22,7 @@ export function Intro() {
           </a>
         </li>
         <li>
-          <FaMedium /> <span>has written some posts on </span>
-          <a href="https://medium.com/@felladrin" target="_blank">
-            Medium
-          </a>
-        </li>
-        <li>
-          <FaTwitter /> <span>has shared a lot of links on </span>
+          <FaTwitter /> <span>has shared a bunch of links on </span>
           <a href="https://twitter.com/felladrin" target="_blank">
             Twitter
           </a>
@@ -49,7 +34,7 @@ export function Intro() {
           </a>
         </li>
         <li>
-          <FaYoutube /> <span>has uploaded a lot of time lapses to </span>
+          <FaYoutube /> <span>has uploaded some time lapses to </span>
           <a href="https://www.youtube.com/user/Felladrin/videos" target="_blank">
             Youtube
           </a>

@@ -1,6 +1,7 @@
 import React from "react";
 import { ContactForm } from "./ContactForm";
 import { Intro } from "./Intro";
+import { Articles } from "./Articles";
 
 export function Main() {
   return (
@@ -11,6 +12,7 @@ export function Main() {
             <Intro />
           </div>
           <div className="col-lg-6">
+            <Articles />
             <ContactForm />
           </div>
         </div>
