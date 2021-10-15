@@ -29,7 +29,7 @@ export function Articles() {
     <div className="card">
       <h2 className="card-title">Articles</h2>
       {articles.map(({ date, url, title }) => (
-        <p>
+        <p key={url}>
           <span>{date} &#183; </span>
           <a href={url} target="_blank">
             {title}
