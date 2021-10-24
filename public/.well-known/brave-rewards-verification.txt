@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: victornogueira.app
-Token: 847201a41fc59f97f568ce40aa82fb9cd1af27b5473d0d7030d12b0158140368
