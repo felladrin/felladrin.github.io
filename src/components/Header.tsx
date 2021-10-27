@@ -10,7 +10,7 @@ export function Header() {
           href="images/avatar.jpg"
           data-toggle="tooltip"
           data-placement="right"
-          data-title="Willing to see my face? :) Then click the picture!"
+          data-title="Willing to see my face? :) Click on it!"
         >
           <img src="images/avatar.jpg" className="border rounded-circle" />
         </a>
