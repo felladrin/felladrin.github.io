@@ -1,0 +1,76 @@
+<script>
+  let nameInput = "";
+
+  let emailInput = "";
+
+  let messageTextarea = "";
+
+  $: isSubmitButtonDisabled = [nameInput, emailInput, messageTextarea].some(
+    (htmlElementRef) => htmlElementRef.length === 0
+  );
+</script>
+
+<div class="card">
+  <h2 class="card-title">Get in touch!</h2>
+  <form
+    action="https://docs.google.com/forms/d/1zGayNb5zicpGlD_mYiunk8A4-FLB7GSG-YEyxW-URfw/formResponse"
+    method="POST"
+  >
+    <div class="form-row row-eq-spacing-sm">
+      <div class="col-sm">
+        <label class="required" for="contact-form-name-input">Your Name</label>
+        <input
+          id="contact-form-name-input"
+          name="entry.605799379"
+          type="text"
+          placeholder="Type your name"
+          class="form-control"
+          bind:value={nameInput}
+          data-test-id="contact-form-name-input"
+        />
+      </div>
+      <div class="col-sm">
+        <label class="required" for="contact-form-email-input">Your Email</label
+        >
+        <input
+          id="contact-form-email-input"
+          name="entry.1273651383"
+          type="text"
+          placeholder="Type your email"
+          class="form-control"
+          bind:value={emailInput}
+          data-test-id="contact-form-email-input"
+        />
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col">
+        <label class="required" for="contact-form-message-textarea"
+          >Your Message</label
+        >
+        <textarea
+          id="contact-form-message-textarea"
+          name="entry.1634498"
+          placeholder="What do you have in mind?"
+          class="form-control"
+          rows={5}
+          style="display: block; widh: 100%;"
+          bind:value={messageTextarea}
+          data-test-id="contact-form-message-textarea"
+        />
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col text-right">
+        <button
+          type="submit"
+          class="btn btn-primary btn-sm btn-block"
+          disabled={isSubmitButtonDisabled}
+          data-test-id="contact-form-submit-button"
+        >
+          SUBMIT
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
