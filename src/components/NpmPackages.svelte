@@ -1,12 +1,13 @@
 <script>
+  import { onMount } from "svelte";
+
   /** @type import("../types/NpmsQueryResult").NpmsQueryResult */
   let npmsQueryResult;
 
-  fetch("https://api.npms.io/v2/search?q=maintainer%3Afelladrin")
-    .then((response) => response.json())
-    .then((result) => {
-      npmsQueryResult = result;
-    });
+  onMount(async () => {
+    const response = await fetch(`https://api.npms.io/v2/search?q=maintainer%3Afelladrin`);
+    npmsQueryResult = await response.json();
+  });
 </script>
 
 {#if npmsQueryResult}
