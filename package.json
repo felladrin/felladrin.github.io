@@ -18,7 +18,8 @@
     "@fortawesome/free-solid-svg-icons": "5.15.4",
     "@types/halfmoon": "1.0.1",
     "halfmoon": "1.1.1",
-    "svelte-fa": "2.3.3"
+    "svelte-fa": "2.3.3",
+    "winbox": "^0.2.1"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "1.0.0-next.30",

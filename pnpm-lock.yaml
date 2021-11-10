@@ -16,6 +16,7 @@ specifiers:
   tslib: 2.3.1
   typescript: 4.4.4
   vite: 2.6.14
+  winbox: ^0.2.1
 
 dependencies:
   '@fortawesome/free-brands-svg-icons': 5.15.4
@@ -23,6 +24,7 @@ dependencies:
   '@types/halfmoon': 1.0.1
   halfmoon: 1.1.1
   svelte-fa: 2.3.3
+  winbox: 0.2.1
 
 devDependencies:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.30_svelte@3.44.1+vite@2.6.14
@@ -2275,6 +2277,10 @@ packages:
     dependencies:
       isexe: 2.0.0
     dev: true
+
+  /winbox/0.2.1:
+    resolution: {integrity: sha512-K3PY+y+aWpkCpECGF2TqSi4w+OT+cuJHWbOKBjVerpexmdC6Is5m4y0gZ9rbxU2K+GszE1nH+d2okMAQTG05hg==}
+    dev: false
 
   /wrap-ansi/6.2.0:
     resolution: {integrity: sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==}
