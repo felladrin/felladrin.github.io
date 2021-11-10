@@ -5,8 +5,8 @@ export function showAvatar() {
     url: "images/avatar.webp",
     x: "center",
     y: "center",
-    width: "460px",
-    height: "460px",
+    width: "60%",
+    height: "60%",
     background: "#bd8b01",
     top: 50,
   });

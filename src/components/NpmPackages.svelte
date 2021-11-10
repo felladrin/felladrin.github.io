@@ -14,22 +14,13 @@
 {#if npmsQueryResult}
   <div class="card">
     <h2 class="card-title">NPM Packages</h2>
-    <table class="table table-hover">
-      <tbody>
-        {#each npmsQueryResult.results as result}
-          <tr>
-            <td style="white-space: nowrap;">
-              <button
-                class="btn btn-link"
-                type="button"
-                on:click={() => showNpmPackage(result.package.name)}
-                >{result.package.name}</button
-              >
-            </td>
-            <td>{result.package.description}</td>
-          </tr>
-        {/each}
-      </tbody>
-    </table>
+    {#each npmsQueryResult.results as result}
+      <p>
+        <a href={"#"} on:click={() => showNpmPackage(result.package.name)}>
+          {result.package.name}
+        </a>
+        <span> &#183; {result.package.description}</span>
+      </p>
+    {/each}
   </div>
 {/if}

@@ -5,10 +5,11 @@ export function showNpmPackage(packageName: string) {
     url: `https://yarn.pm/${packageName}#readme`,
     x: "center",
     y: "center",
-    width: "40%",
-    height: "75%",
+    width: "60%",
+    height: "60%",
     border: "0.3em",
     background: "#117cad",
     top: 50,
+    max: true,
   });
 }
