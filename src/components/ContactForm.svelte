@@ -1,8 +1,6 @@
 <script>
   let nameInput = "";
-
   let emailInput = "";
-
   let messageTextarea = "";
 
   $: isSubmitButtonDisabled = [nameInput, emailInput, messageTextarea].some(

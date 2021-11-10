@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
   import { onMount } from "svelte";
+  import type {NpmsQueryResult} from "../types/NpmsQueryResult"
 
-  /** @type import("../types/NpmsQueryResult").NpmsQueryResult */
-  let npmsQueryResult;
+  let npmsQueryResult: NpmsQueryResult;
 
   onMount(async () => {
     const response = await fetch(`https://api.npms.io/v2/search?q=maintainer%3Afelladrin`);
