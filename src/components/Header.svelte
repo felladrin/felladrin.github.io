@@ -6,12 +6,16 @@
   <div class="navbar-brand">
     <a
       class="navbar-brand"
-      href="images/avatar.jpg"
+      href="images/avatar.webp"
       data-toggle="tooltip"
       data-placement="right"
       data-title="Willing to see my face? :) Click on it!"
     >
-      <img src="images/avatar.jpg" class="border rounded-circle" alt="Avatar" />
+      <img
+        src="images/avatar.min.webp"
+        class="border rounded-circle"
+        alt="Avatar"
+      />
     </a>
     Victor Nogueira
   </div>
