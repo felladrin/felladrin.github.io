@@ -1,7 +1,8 @@
-import WinBox from "winbox/src/js/winbox.js";
+import WinBox from "winbox";
 
 export function showNpmPackage(packageName: string) {
-  new WinBox(packageName, {
+  new WinBox({
+    title: packageName,
     url: `https://yarn.pm/${packageName}#readme`,
     x: "center",
     y: "center",

@@ -6,6 +6,7 @@ specifiers:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.30
   '@tsconfig/svelte': 2.0.1
   '@types/halfmoon': 1.0.1
+  '@types/winbox': ^0.2.1
   cypress: 8.7.0
   halfmoon: 1.1.1
   npm-run-all: 4.1.5
@@ -29,6 +30,7 @@ dependencies:
 devDependencies:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.30_svelte@3.44.1+vite@2.6.14
   '@tsconfig/svelte': 2.0.1
+  '@types/winbox': 0.2.1
   cypress: 8.7.0
   npm-run-all: 4.1.5
   svelte: 3.44.1
@@ -178,6 +180,10 @@ packages:
 
   /@types/sizzle/2.3.3:
     resolution: {integrity: sha512-JYM8x9EGF163bEyhdJBpR2QX1R5naCJHC8ucJylJ3w9/CVBaskdQ8WqBf8MmQrd1kRvp/a4TS8HJ+bxzR7ZJYQ==}
+    dev: true
+
+  /@types/winbox/0.2.1:
+    resolution: {integrity: sha512-fN/UQjitix7v3yDmpvzKSnDyKIiOhU5LdAj5Wcf/eRpGapoLwBELAwvVZY/2OBw23PyPKwGZ07oZxBHyIO/e3A==}
     dev: true
 
   /@types/yauzl/2.9.2:

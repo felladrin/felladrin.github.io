@@ -1,7 +1,8 @@
-import WinBox from "winbox/src/js/winbox.js";
+import WinBox from "winbox";
 
 export function showAvatar() {
-  new WinBox("📷", {
+  new WinBox({
+    title: "📷",
     url: "images/avatar.webp",
     x: "center",
     y: "center",
