@@ -1,0 +1,3 @@
+<div class="page-wrapper text-center bg-dark">
+  <img src="images/avatar.webp" class="img-fluid" alt="Avatar" />
+</div>

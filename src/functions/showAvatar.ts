@@ -1,9 +1,9 @@
 import WinBox from "winbox";
+import Avatar from "../components/Avatar.svelte";
 
 export function showAvatar() {
-  new WinBox({
+  const avatarWindow = new WinBox({
     title: "📷",
-    url: "images/avatar.webp",
     x: "center",
     y: "center",
     width: "60%",
@@ -12,4 +12,6 @@ export function showAvatar() {
     top: 50,
     class: ["no-min", "no-full"],
   });
+
+  new Avatar({ target: avatarWindow.body });
 }
