@@ -10,5 +10,6 @@ export function showAvatar() {
     height: "60%",
     background: "#bd8b01",
     top: 50,
+    class: ["no-min", "no-full"],
   });
 }

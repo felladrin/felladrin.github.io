@@ -12,5 +12,6 @@ export function showNpmPackage(packageName: string) {
     background: "#117cad",
     top: 50,
     max: true,
+    class: ["no-min", "no-full"],
   });
 }

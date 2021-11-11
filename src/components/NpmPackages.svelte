@@ -16,10 +16,14 @@
     <h2 class="card-title">NPM Packages</h2>
     {#each npmsQueryResult.results as result}
       <p>
-        <a href={"#"} on:click={() => showNpmPackage(result.package.name)}>
+        <button
+          class="btn btn-rounded btn-sm"
+          type="button"
+          on:click={() => showNpmPackage(result.package.name)}
+        >
           {result.package.name}
-        </a>
-        <span> &#183; {result.package.description}</span>
+        </button>
+        {result.package.description}
       </p>
     {/each}
   </div>
