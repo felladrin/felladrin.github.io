@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@fortawesome/free-brands-svg-icons': 5.15.4
   '@fortawesome/free-solid-svg-icons': 5.15.4
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.31
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.32
   '@tsconfig/svelte': 2.0.1
   '@types/halfmoon': 1.0.1
   '@types/winbox': 0.2.1
@@ -28,7 +28,7 @@ dependencies:
   winbox: 0.2.1
 
 devDependencies:
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.31_svelte@3.44.3+vite@2.7.2
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.32_svelte@3.44.3+vite@2.7.2
   '@tsconfig/svelte': 2.0.1
   '@types/winbox': 0.2.1
   cypress: 9.1.1
@@ -124,13 +124,13 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.31_svelte@3.44.3+vite@2.7.2:
-    resolution: {integrity: sha512-8K3DcGP1V+XBv389u32S6wt8xiun6hHd5wn28AKLSoNTIhOmJOA2RJUJzp0seTRI86Shme4lzHI2Fgq4qz1wXQ==}
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.32_svelte@3.44.3+vite@2.7.2:
+    resolution: {integrity: sha512-Lhf5BxVylosHIW6U2s6WDQA39ycd+bXivC8gHsXCJeLzxoHj7Pv7XAOk25xRSXT4wHg9DWFMBQh2DFU0DxHZ2g==}
     engines: {node: ^14.13.1 || >= 16}
     peerDependencies:
       diff-match-patch: ^1.0.5
       svelte: ^3.44.0
-      vite: ^2.6.0
+      vite: ^2.7.0
     peerDependenciesMeta:
       diff-match-patch:
         optional: true
