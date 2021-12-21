@@ -7,7 +7,7 @@ specifiers:
   '@tsconfig/svelte': 3.0.0
   '@types/halfmoon': 1.0.1
   '@types/winbox': 0.2.1
-  cypress: 9.1.1
+  cypress: 9.2.0
   halfmoon: 1.1.1
   npm-run-all: 4.1.5
   svelte: 3.44.3
@@ -31,7 +31,7 @@ devDependencies:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.32_svelte@3.44.3+vite@2.7.4
   '@tsconfig/svelte': 3.0.0
   '@types/winbox': 0.2.1
-  cypress: 9.1.1
+  cypress: 9.2.0
   npm-run-all: 4.1.5
   svelte: 3.44.3
   svelte-check: 2.2.11_svelte@3.44.3
@@ -496,8 +496,8 @@ packages:
       which: 2.0.2
     dev: true
 
-  /cypress/9.1.1:
-    resolution: {integrity: sha512-yWcYD8SEQ8F3okFbRPqSDj5V0xhrZBT5QRIH+P1J2vYvtEmZ4KGciHE7LCcZZLILOrs7pg4WNCqkj/XRvReQlQ==}
+  /cypress/9.2.0:
+    resolution: {integrity: sha512-Jn26Tprhfzh/a66Sdj9SoaYlnNX6Mjfmj5PHu2a7l3YHXhrgmavM368wjCmgrxC6KHTOv9SpMQGhAJn+upDViA==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
@@ -518,7 +518,7 @@ packages:
       commander: 5.1.0
       common-tags: 1.8.0
       dayjs: 1.10.7
-      debug: 4.3.2_supports-color@8.1.1
+      debug: 4.3.3_supports-color@8.1.1
       enquirer: 2.3.6
       eventemitter2: 6.4.5
       execa: 4.1.0
@@ -560,19 +560,6 @@ packages:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
     dependencies:
       ms: 2.1.3
-    dev: true
-
-  /debug/4.3.2_supports-color@8.1.1:
-    resolution: {integrity: sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-    dependencies:
-      ms: 2.1.2
-      supports-color: 8.1.1
     dev: true
 
   /debug/4.3.3:
