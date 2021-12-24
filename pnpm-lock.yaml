@@ -5,7 +5,7 @@ specifiers:
   '@fortawesome/free-solid-svg-icons': 5.15.4
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.32
   '@tsconfig/svelte': 3.0.0
-  '@types/halfmoon': 1.0.1
+  '@types/halfmoon': 1.0.2
   '@types/winbox': 0.2.1
   cypress: 9.2.0
   halfmoon: 1.1.1
@@ -22,7 +22,7 @@ specifiers:
 dependencies:
   '@fortawesome/free-brands-svg-icons': 5.15.4
   '@fortawesome/free-solid-svg-icons': 5.15.4
-  '@types/halfmoon': 1.0.1
+  '@types/halfmoon': 1.0.2
   halfmoon: 1.1.1
   svelte-fa: 2.4.0
   winbox: 0.2.1
@@ -151,8 +151,8 @@ packages:
     resolution: {integrity: sha512-pYrtLtOwku/7r1i9AMONsJMVYAtk3hzOfiGNekhtq5tYBGA7unMve8RvUclKLMT3PrihvJqUmzsRGh0RP84hKg==}
     dev: true
 
-  /@types/halfmoon/1.0.1:
-    resolution: {integrity: sha512-BJBQFcoOQeX3PaP7pcLSnYl3aElcQp39kV1IoLqkbZuMmJjkRuuRUHFU0n+muyn1taBh1EJKFbzUlsjTYCaUvA==}
+  /@types/halfmoon/1.0.2:
+    resolution: {integrity: sha512-WPziA51sTTj2xkZn51+lqP+/ij3TmV8BTOqGPLNHryhbM3znkJ+JbFE7no5H+Ai1M+fK8AS5ErJy14Xul0RT+A==}
     dev: false
 
   /@types/node/14.18.2:
