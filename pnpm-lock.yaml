@@ -16,7 +16,7 @@ specifiers:
   svelte-preprocess: 4.10.1
   tslib: 2.3.1
   typescript: 4.5.4
-  vite: 2.7.9
+  vite: 2.7.10
   winbox: 0.2.1
 
 dependencies:
@@ -28,7 +28,7 @@ dependencies:
   winbox: 0.2.1
 
 devDependencies:
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.33_svelte@3.44.3+vite@2.7.9
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.33_svelte@3.44.3+vite@2.7.10
   '@tsconfig/svelte': 3.0.0
   '@types/winbox': 0.2.1
   cypress: 9.2.0
@@ -38,7 +38,7 @@ devDependencies:
   svelte-preprocess: 4.10.1_svelte@3.44.3+typescript@4.5.4
   tslib: 2.3.1
   typescript: 4.5.4
-  vite: 2.7.9
+  vite: 2.7.10
 
 packages:
 
@@ -124,7 +124,7 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.33_svelte@3.44.3+vite@2.7.9:
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.33_svelte@3.44.3+vite@2.7.10:
     resolution: {integrity: sha512-aj0h2+ZixgT+yoJFIs8dRRw/Cj9tgNu3+hY4CJikpa04mfhR61wXqJFfi2ZEFMUvFda5nCxKYIChFkc6wq5fJA==}
     engines: {node: ^14.13.1 || >= 16}
     peerDependencies:
@@ -142,7 +142,7 @@ packages:
       require-relative: 0.8.7
       svelte: 3.44.3
       svelte-hmr: 0.14.9_svelte@3.44.3
-      vite: 2.7.9
+      vite: 2.7.10
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2190,8 +2190,8 @@ packages:
       extsprintf: 1.3.0
     dev: true
 
-  /vite/2.7.9:
-    resolution: {integrity: sha512-CyopIJIRrc26Wnbkch5BCHFhQodzeV4jjSegLAEw1RImvXSuoOo2SfpEW9zRVi188WmjJwCqCaoG25C0r4nekw==}
+  /vite/2.7.10:
+    resolution: {integrity: sha512-KEY96ntXUid1/xJihJbgmLZx7QSC2D4Tui0FdS0Old5OokYzFclcofhtxtjDdGOk/fFpPbHv9yw88+rB93Tb8w==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
