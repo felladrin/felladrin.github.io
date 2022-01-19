@@ -7,7 +7,7 @@ specifiers:
   '@tsconfig/svelte': 3.0.0
   '@types/halfmoon': 1.0.2
   '@types/winbox': 0.2.1
-  cypress: 9.3.0
+  cypress: 9.3.1
   halfmoon: 1.1.1
   npm-run-all: 4.1.5
   svelte: 3.46.2
@@ -31,7 +31,7 @@ devDependencies:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.34_svelte@3.46.2+vite@2.7.13
   '@tsconfig/svelte': 3.0.0
   '@types/winbox': 0.2.1
-  cypress: 9.3.0
+  cypress: 9.3.1
   npm-run-all: 4.1.5
   svelte: 3.46.2
   svelte-check: 2.3.0_svelte@3.46.2
@@ -501,8 +501,8 @@ packages:
       which: 2.0.2
     dev: true
 
-  /cypress/9.3.0:
-    resolution: {integrity: sha512-Hnqp1hoiBuiWYM+r3/RZKZCMzQ+1kiJqJejsgX8+cT9nwZXjEcCW8xQjNIT0GibiCemeK4y4ZNQbn+Jp1Tg7uw==}
+  /cypress/9.3.1:
+    resolution: {integrity: sha512-BODdPesxX6bkVUnH8BVsV8I/jn57zQtO1FEOUTiuG2us3kslW7g0tcuwiny7CKCmJUZz8S/D587ppC+s58a+5Q==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
