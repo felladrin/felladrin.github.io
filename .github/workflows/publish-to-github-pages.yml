@@ -7,13 +7,14 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out
-        uses: actions/checkout@v2
-      - name: Build
-        run: |
-          npx pnpm install
-          npx pnpm run test
-          npx pnpm run build
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: lts/*
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm test
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
