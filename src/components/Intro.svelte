@@ -53,7 +53,7 @@
     <li>
       <Fa icon={faImdb} /> <span>has rated a thousand movies on </span>
       <a
-        href="http://www.imdb.com/user/ur36368230/ratings?sort=your_ratings:desc"
+        href="https://www.imdb.com/user/ur36368230/ratings?sort=your_rating,desc&ratingFilter=0&mode=grid&ref_=undefined&lastPosition=0"
         target="_blank"
       >
         IMDB
