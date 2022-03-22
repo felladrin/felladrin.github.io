@@ -14,8 +14,8 @@
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "dependencies": {
-    "@fortawesome/free-brands-svg-icons": "6.1.0",
-    "@fortawesome/free-solid-svg-icons": "6.1.0",
+    "@fortawesome/free-brands-svg-icons": "6.1.1",
+    "@fortawesome/free-solid-svg-icons": "6.1.1",
     "@types/halfmoon": "1.0.2",
     "halfmoon": "1.1.1",
     "svelte-fa": "2.4.0",
