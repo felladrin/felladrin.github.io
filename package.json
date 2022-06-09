@@ -22,7 +22,7 @@
     "winbox": "0.2.1"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "1.0.0-next.48",
+    "@sveltejs/vite-plugin-svelte": "1.0.0-next.49",
     "@tsconfig/svelte": "3.0.0",
     "@types/winbox": "0.2.1",
     "cypress": "10.0.3",
