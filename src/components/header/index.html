@@ -1,8 +1,3 @@
-<script>
-  import ToggleThemeButton from "./ToggleThemeButton.svelte";
-  import { showAvatar } from "../functions/showAvatar";
-</script>
-
 <nav class="navbar">
   <div class="navbar-brand">
     <button
@@ -11,7 +6,6 @@
       data-toggle="tooltip"
       data-placement="right"
       data-title="Willing to see my face? :) Click on it!"
-      on:click={showAvatar}
     >
       <img
         src="images/avatar.min.webp"
@@ -21,7 +15,5 @@
     </button>
     Victor Nogueira
   </div>
-  <div class="navbar-content ml-auto">
-    <ToggleThemeButton />
-  </div>
+  <div class="navbar-content ml-auto" id="toggleThemeButton"></div>
 </nav>
