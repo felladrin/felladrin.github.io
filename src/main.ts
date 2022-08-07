@@ -1,6 +1,6 @@
-import App from "./components/App.svelte";
 import halfmoon from "halfmoon";
+import { app } from "./components/app";
 
-new App({ target: document.body });
+document.body.appendChild(app);
 
 halfmoon.onDOMContentLoaded();
