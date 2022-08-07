@@ -1,5 +1,5 @@
 import WinBox from "winbox";
-import Avatar from "../components/Avatar.svelte";
+import { avatar } from "../components/avatar";
 
 export function showAvatar() {
   const avatarWindow = new WinBox({
@@ -13,5 +13,5 @@ export function showAvatar() {
     class: ["no-min", "no-full"],
   });
 
-  new Avatar({ target: avatarWindow.body });
+  avatarWindow.body.appendChild(avatar);
 }
