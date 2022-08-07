@@ -28,10 +28,9 @@ messageTextarea.addEventListener("input", () =>
 );
 
 function updateSubmitButton() {
-  submitButton.disabled =
-    getName().length === 0 ||
-    getEmail().length === 0 ||
-    getMessage().length === 0;
+  submitButton.disabled = [getName, getEmail, getMessage].some(
+    (getInputValue) => getInputValue().length === 0
+  );
 }
 
 updateSubmitButton();
