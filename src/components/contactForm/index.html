@@ -13,7 +13,6 @@
           type="text"
           placeholder="Type your name"
           class="form-control"
-          bind:value="{nameInput}"
           data-test-id="contact-form-name-input"
         />
       </div>
@@ -27,7 +26,6 @@
           type="text"
           placeholder="Type your email"
           class="form-control"
-          bind:value="{emailInput}"
           data-test-id="contact-form-email-input"
         />
       </div>
@@ -44,18 +42,16 @@
           class="form-control"
           rows="{5}"
           style="display: block; widh: 100%"
-          bind:value="{messageTextarea}"
           data-test-id="contact-form-message-textarea"
-        >
-        </textarea>
+        ></textarea>
       </div>
     </div>
     <div class="form-row">
       <div class="col text-right">
         <button
+          id="contact-form-submit-button"
           type="submit"
           class="btn btn-primary btn-sm btn-block"
-          disabled="{isSubmitButtonDisabled}"
           data-test-id="contact-form-submit-button"
         >
           SUBMIT
