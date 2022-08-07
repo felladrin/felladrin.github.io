@@ -1,6 +1,19 @@
-import { defineConfig } from "vite";
+import { ConfigEnv, UserConfigExport } from "vite";
+import { viteVConsole } from "vite-plugin-vconsole";
+import { resolve } from "node:path";
 
-export default defineConfig({
+export default ({ command }: ConfigEnv): UserConfigExport => ({
+  plugins: [
+    viteVConsole({
+      entry: [resolve("src/main.ts")],
+      localEnabled: command === "serve",
+      enabled: false,
+      config: {
+        maxLogNumber: 1000,
+        theme: "dark",
+      },
+    }),
+  ],
   resolve: {
     alias: {
       winbox: "winbox/src/js/winbox.js",

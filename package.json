@@ -17,17 +17,18 @@
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/free-brands-svg-icons": "6.1.2",
     "@fortawesome/free-solid-svg-icons": "6.1.2",
-    "@types/halfmoon": "1.0.2",
     "create-pubsub": "^1.4.0",
     "halfmoon": "1.1.1",
     "winbox": "0.2.1"
   },
   "devDependencies": {
     "@types/winbox": "0.2.1",
-    "console-panel": "^1.0.4",
+    "@types/halfmoon": "1.0.2",
     "cypress": "10.4.0",
     "npm-run-all": "4.1.5",
     "typescript": "4.7.4",
-    "vite": "3.0.4"
+    "vconsole": "^3.14.6",
+    "vite": "3.0.4",
+    "vite-plugin-vconsole": "^1.2.2"
   }
 }
