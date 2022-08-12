@@ -3,10 +3,10 @@
   "version": "2.0.0",
   "private": true,
   "type": "module",
-  "source": "index.html",
+  "source": "./src/index.html",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build --public-url ./ & echo 'www.victornogueira.app' > ./dist/CNAME",
+    "build": "parcel build --public-url ./ && echo 'www.victornogueira.app' > ./dist/CNAME",
     "cypress-open": "cypress open",
     "cypress-run": "cypress run",
     "test": "npm-run-all --parallel --race dev cypress-run",
