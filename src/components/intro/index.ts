@@ -1,5 +1,5 @@
 import { parseHtmlString } from "../../functions/parseHtmlString";
-import htmlString from "./index.html?raw";
+import htmlString from "bundle-text:./index.html";
 import {
   faGithub,
   faImdb,
