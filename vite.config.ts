@@ -1,6 +1,7 @@
 import { ConfigEnv, UserConfigExport } from "vite";
 import { viteVConsole } from "vite-plugin-vconsole";
 import { resolve } from "node:path";
+import { execSync } from "node:child_process";
 
 export default ({ command }: ConfigEnv): UserConfigExport => ({
   plugins: [
@@ -19,9 +20,19 @@ export default ({ command }: ConfigEnv): UserConfigExport => ({
       winbox: "winbox/src/js/winbox.js",
     },
   },
-  server: {
-    hmr: {
-      clientPort: process.env.GITPOD_WORKSPACE_ID ? 443 : undefined,
-    },
-  },
+  server: (() => {
+    try {
+      const port = 5173;
+      const gitpodPortUrl = execSync(`gp url ${port}`).toString().trim();
+      return {
+        strictPort: true,
+        port,
+        hmr: {
+          protocol: "wss",
+          host: new URL(gitpodPortUrl).hostname,
+          clientPort: 443,
+        },
+      };
+    } catch {}
+  })(),
 });
