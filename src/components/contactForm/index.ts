@@ -1,5 +1,5 @@
 import { parseHtmlString } from "../../functions/parseHtmlString";
-import htmlString from "./index.html?raw";
+import htmlString from "bundle-text:./index.html";
 import { createPubSub } from "create-pubsub";
 
 export const contactForm = parseHtmlString(htmlString).firstElementChild;

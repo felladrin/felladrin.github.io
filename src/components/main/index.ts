@@ -2,7 +2,7 @@ import { parseHtmlString } from "../../functions/parseHtmlString";
 import { articles } from "../articles";
 import { contactForm } from "../contactForm";
 import { intro } from "../intro";
-import htmlString from "./index.html?raw";
+import htmlString from "bundle-text:./index.html";
 import { npmPackages } from "../npmPackages";
 
 export const main = parseHtmlString(htmlString).firstElementChild;
