@@ -7,10 +7,10 @@
   "scripts": {
     "dev": "parcel",
     "build": "parcel build --public-url ./ --no-source-maps && echo 'www.victornogueira.app' > ./dist/CNAME",
+    "prebuild": "node -e \"fs.rmSync('dist', { recursive: true })\"",
     "cypress-open": "cypress open",
     "cypress-run": "cypress run",
-    "test": "npm-run-all --parallel --race dev cypress-run",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "test": "npm-run-all --parallel --race dev cypress-run"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "6.1.2",
