@@ -1,12 +1,13 @@
-image:
-  file: .gitpod.Dockerfile
 tasks:
   - name: Dev Server
     init: npm ci
     command: |
-      npx cypress install
+      npx playwright install --with-deps
       npm run dev
 ports:
   - name: Dev Server
     port: 1234
     onOpen: open-preview
+vscode:
+  extensions:
+    - ms-playwright.playwright

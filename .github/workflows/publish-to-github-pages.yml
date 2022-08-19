@@ -1,8 +1,7 @@
 name: Publish to GitHub Pages
 on:
   push:
-    branches:
-      - source
+    branches: [source]
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -13,7 +12,6 @@ jobs:
           node-version: lts/*
           cache: npm
       - run: npm ci
-      - run: npm test
       - run: npm run build
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
