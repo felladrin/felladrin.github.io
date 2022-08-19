@@ -1,6 +1,6 @@
 import { articles as articleList } from "../../constants/articles";
 import { parseHtmlString } from "../../functions/parseHtmlString";
-import htmlString from "./index.html?raw";
+import htmlString from "bundle-text:./index.html";
 
 const template = parseHtmlString(htmlString);
 

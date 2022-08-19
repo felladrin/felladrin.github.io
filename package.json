@@ -3,28 +3,34 @@
   "version": "2.0.0",
   "private": true,
   "type": "module",
+  "source": "./src/index.html",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
-    "test": "npx playwright test",
+    "dev": "parcel",
+    "build": "parcel build --public-url ./ --no-source-maps && echo 'www.victornogueira.app' > ./dist/CNAME",
+    "prebuild": "node -e \"fs.rmSync('dist', { recursive: true })\"",
+    "test": "playwright test",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/fontawesome-svg-core": "6.1.2",
     "@fortawesome/free-brands-svg-icons": "6.1.2",
     "@fortawesome/free-solid-svg-icons": "6.1.2",
-    "create-pubsub": "^1.4.0",
+    "create-pubsub": "1.4.0",
     "halfmoon": "1.1.1",
-    "winbox": "0.2.1"
+    "winbox": "0.2.4"
   },
   "devDependencies": {
-    "@playwright/test": "^1.24.2",
+    "@parcel/transformer-inline-string": "2.7.0",
+    "@playwright/test": "1.25.0",
     "@types/halfmoon": "1.0.2",
     "@types/winbox": "0.2.1",
+    "npm-run-all": "4.1.5",
+    "parcel": "2.7.0",
+    "playwright": "1.25.0",
     "typescript": "4.7.4",
-    "vconsole": "^3.14.6",
-    "vite": "3.0.4",
-    "vite-plugin-vconsole": "^1.2.2"
+    "vconsole": "3.14.6"
+  },
+  "alias": {
+    "winbox": "winbox/src/js/winbox.js"
   }
 }

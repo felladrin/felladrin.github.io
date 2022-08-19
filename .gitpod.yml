@@ -6,7 +6,7 @@ tasks:
       npm run dev
 ports:
   - name: Dev Server
-    port: 5173
+    port: 1234
     onOpen: open-preview
 vscode:
   extensions:

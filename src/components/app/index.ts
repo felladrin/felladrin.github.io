@@ -1,5 +1,5 @@
 import { parseHtmlString } from "../../functions/parseHtmlString";
-import htmlString from "./index.html?raw";
+import htmlString from "bundle-text:./index.html";
 import { header } from "../header";
 import { main } from "../main";
 import { replaceHtmlSlots } from "../../functions/replaceHtmlSlots";
