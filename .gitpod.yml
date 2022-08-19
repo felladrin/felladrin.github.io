@@ -1,9 +1,9 @@
 tasks:
+  - name: Install Playwright
+    command: npx -y playwright install --with-deps
   - name: Dev Server
     init: npm ci
-    command: |
-      npx playwright install --with-deps
-      npm run dev
+    command: npm run dev
 ports:
   - name: Dev Server
     port: 1234
