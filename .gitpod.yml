@@ -3,7 +3,7 @@ tasks:
     init: npm ci
     command: |
       npx playwright install --with-deps
-      npm run vite
+      npm run dev
 ports:
   - name: Dev Server
     port: 5173
