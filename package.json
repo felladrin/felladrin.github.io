@@ -17,7 +17,7 @@
     "@fortawesome/free-solid-svg-icons": "6.1.2",
     "create-pubsub": "1.4.0",
     "halfmoon": "1.1.1",
-    "winbox": "0.2.4"
+    "winbox": "0.2.5"
   },
   "devDependencies": {
     "@parcel/transformer-inline-string": "2.7.0",
