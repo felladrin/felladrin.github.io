@@ -15,7 +15,7 @@
     "@fortawesome/fontawesome-svg-core": "6.4.0",
     "@fortawesome/free-brands-svg-icons": "6.4.0",
     "@fortawesome/free-solid-svg-icons": "6.4.0",
-    "create-pubsub": "1.6.1",
+    "create-pubsub": "1.6.2",
     "halfmoon": "1.1.1",
     "winbox": "0.2.6"
   },
