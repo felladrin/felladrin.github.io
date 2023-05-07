@@ -9,6 +9,7 @@ import {
   faTwitter,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import { faPaintBrush } from "@fortawesome/free-solid-svg-icons";
 import { replaceHtmlSlots } from "../../functions/replaceHtmlSlots";
 import { getIconNode } from "../../functions/getIconNode";
 
@@ -22,4 +23,5 @@ replaceHtmlSlots(intro, {
   faYoutube: getIconNode(faYoutube),
   faItchIo: getIconNode(faItchIo),
   faImdb: getIconNode(faImdb),
+  faPaintBrush: getIconNode(faPaintBrush),
 });
