@@ -6,7 +6,7 @@
   - [GitHub](https://github.com/felladrin)
   - [Twitter](https://twitter.com/felladrin)
 - **Images & Videos**
-  - [Civitai Gallery](https://civitai.com/user/Felladrin)
+  - [Artwork on Pixels](https://pixels.com/profiles/victor-nogueira)
   - [Published Videos](https://www.youtube.com/user/Felladrin/videos)
   - [Watched Movies](https://www.imdb.com/user/ur36368230/ratings?sort=your_rating,desc&ratingFilter=0&mode=grid&lastPosition=0)
 - **Tools**
