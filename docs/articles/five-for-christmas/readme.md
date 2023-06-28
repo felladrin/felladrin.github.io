@@ -18,7 +18,6 @@ Play it at Itch.io: [https://felladrin.itch.io/five-for-christmas](https://fella
 * [Concrete texture by Seamless-pixels](http://seamless-pixels.blogspot.co.uk/2014/07/concrete-dirt-ground-floor-walkway_13.html)
 * [Happy song by Rezonerd](https://soundcloud.com/rezoner/happy-2012)
 * [Sleigh Bells Ringing Sound by Mike Koenig](http://soundbible.com/1256-Sleigh-Bells-Ringing.html)
-* [Santa Claus riding on his sleigh with one reindeer by Dorling Kindersley](http://www.thinkstockphotos.com/image/stock-illustration-santa-claus-riding-on-his-sleigh-with/73016326/)
 * [Funny Kid Giggle Sound by Mike Koenig](http://soundbible.com/1114-Funny-Kid-Giggle.html)
 * [Giggle Sound by Mike Koenig](http://soundbible.com/791-Giggle.html)
 * [Kid Laughing Short Sound by Mike Koenig](http://soundbible.com/1119-Kid-Laughing-Short.html)
