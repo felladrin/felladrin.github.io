@@ -8,7 +8,6 @@
 - **Images & Videos**
   - [Published Images](https://ko-fi.com/felladrin/gallery)
   - [Published Videos](https://www.youtube.com/user/Felladrin/videos)
-  - [Published Products](https://ko-fi.com/felladrin/shop)
   - [Watched Movies](https://www.imdb.com/user/ur36368230/ratings?sort=your_rating,desc&ratingFilter=0&mode=grid&lastPosition=0)
 - **Tools**
   - [PickBetterPack](https://pickbetterpack.com "Discover similar packages from your package.json dependencies.")
