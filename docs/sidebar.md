@@ -4,7 +4,7 @@
 - **Social**
   - [LinkedIn](https://www.linkedin.com/in/victornogueira)
   - [GitHub](https://github.com/felladrin)
-  - [Twitter](https://twitter.com/felladrin)
+  - [Ko-fi](https://ko-fi.com/felladrin)
 - **Images & Videos**
   - [Published Images](https://www.redbubble.com/people/VictorNogueira/explore?asc=u&page=1&sortOrder=top%20selling)
   - [Published Videos](https://www.youtube.com/user/Felladrin/videos)
