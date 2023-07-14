@@ -1,6 +1,6 @@
 # Articles
 
-- [Guide: Selling on Zazzle](./guide-selling-on-zazzle/readme.md)
+- [Tips for selling on print-on-demand marketplaces](./tips-for-selling-on-print-on-demand-marketplaces/readme.md)
 - [It happened when ChatGPT met GPT4All in a bar...](./it-happened-when-chat-gpt-met-gpt-4-all-in-a-bar/readme.md)
 - [PickBetterPack is now open source!](./pickbetterpack-is-now-open-source/readme.md)
 - [Cat Goric: Escape from the Warp Chamber - Post-Mortem](./cat-goric-escape-from-the-warp-chamber-post-mortem/readme.md)
