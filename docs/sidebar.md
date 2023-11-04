@@ -10,6 +10,7 @@
   - [Published Videos](https://www.youtube.com/user/Felladrin/videos)
   - [Recommended Movies](https://www.imdb.com/user/ur36368230/ratings?sort=your_rating,desc&ratingFilter=0&mode=grid&lastPosition=0)
 - **Tools**
+  - [MiniSearch](https://felladrin-minisearch.hf.space "Minimalist web-searching app with an AI assistant that is always available and runs directly from your browser.")
   - [PickBetterPack](https://pickbetterpack.com "Discover similar packages from your package.json dependencies.")
   - [LinkedTimer](https://linkedtimer.com "Real-time collaborative timer to use with your team in VS Code or in the browser.")
   - [LinkedIn AutoConnect](https://github.com/felladrin/linkedin-autoconnect-chrome-extension "Chrome extension that automatically clicks all 'Connect' buttons available on LinkedIn 'Search People' and 'People You May Know' pages.")
