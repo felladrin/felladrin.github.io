@@ -75,7 +75,7 @@ We’ve developed the game on Unity3D, but decided to export only to WebGL (HTML
 
 ### What we’ve learned
 
-One of the first things we’ve noticed is that not everyone is prepared for the [Pomodoro Technique](http://pomodorotechnique.com/). We used it on the first day, but not everyone could stop their work on the intervals. So we didn’t use it on the following days. But we’ll definitely try it again on the next jam.
+One of the first things we’ve noticed is that not everyone is prepared for the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique). We used it on the first day, but not everyone could stop their work on the intervals. So we didn’t use it on the following days. But we’ll definitely try it again on the next jam.
 
 Having an SGDD as a development guide helps a lot. Once the game tasks are defined, we just need to follow the list!
 
