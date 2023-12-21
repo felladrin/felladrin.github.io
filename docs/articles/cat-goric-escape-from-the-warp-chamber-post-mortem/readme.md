@@ -83,7 +83,7 @@ An important discovery at this moment was the `image-rendering: pixelated` CSS r
 
 With this, the 360x360 canvas was fulfilled, and the only thing left to do was add more levels.
 
-Adding levels was pretty easy, as they are simply based in two arrays holding positions: one for platforms and another for green gems. Moreover, both array objects are linked to their respective [pool of game objects](https://straker.github.io/kontra/api/pool), so I can add/remove them with a single instruction. And to speed up this level edition, I used [Tweakpane](https://cocopon.github.io/tweakpane/), which allowed me to edit while playing.
+Adding levels was pretty easy, as they are simply based in two arrays holding positions: one for platforms and another for green gems. Moreover, both array objects are linked to their respective [pool of game objects](https://straker.github.io/kontra/api/pool), so I can add/remove them with a single instruction. And to speed up this level edition, I used [Tweakpane](https://tweakpane.github.io/docs/), which allowed me to edit while playing.
 
 ![The "Level Editor"](image-11.webp)
 
