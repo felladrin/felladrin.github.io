@@ -46,7 +46,7 @@ Letting people have a glance at the project highlights using badges helps too. F
 
 After that, we just need to [keep the package updated](https://docs.npmjs.com/packages-and-modules/), with [repository issues](https://help.github.com/en/github/managing-your-work-on-github/about-issues) resolved and the installs number will gradually increase. From now on, maintenance is the key.
 
-Keep in mind that developers are more and more concerned about dependency bloat, so, besides quality and coverage, they value small-size and few-dependencies. Projects like [BundlePhobia](https://bundlephobia.com/) were born for it and should be used for self-checking.
+Keep in mind that developers are more and more concerned about dependency bloat, so, besides quality and coverage, they value small-size and few-dependencies. Projects like [bundlejs](https://bundlejs.com/) were born for it and should be used for self-checking.
 
 I hope these thoughts can help those who are giving their first step into NPM publishing.
 
