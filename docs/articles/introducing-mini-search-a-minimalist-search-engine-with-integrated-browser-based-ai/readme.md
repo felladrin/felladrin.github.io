@@ -15,8 +15,6 @@ For running in the browser and on mobiles, lightweight models are required, so w
 
 You can get started with MiniSearch by [cloning the repository from GitHub](https://github.com/felladrin/MiniSearch) and running it locally or by using it online on [this HuggingFace Space](https://felladrin-minisearch.hf.space/).
 
-You can even [set it as your browser's address-bar search engine](https://support.google.com/chrome/answer/95426?hl=en&co=GENIE.Platform%3DDesktop) using the query pattern https://felladrin-minisearch.hf.space/?q=%s.
+You can even [set it as your browser's address-bar search engine](https://support.google.com/chrome/answer/95426?hl=en&co=GENIE.Platform%3DDesktop) using the query pattern `https://felladrin-minisearch.hf.space/?q=%s`.
 
-At the moment of this writing, the app is using TinyLlama and LaMini-Flan-T5 models, but there's an option to try to use larger models like Mistral (not recommended, though, as it could be slow and break the fast-search experience).
-
-That's what I had to share. Thanks for reading! And your feedback means the world to me! Please don't hesitate to reach out if you have any questions or suggestions or want to learn more.
+That's what I had to share. Thanks for reading!
