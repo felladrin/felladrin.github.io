@@ -32,7 +32,7 @@ We did it collaboratively using [Google Docs](https://docs.google.com/):
 ![sgdd](keysmiths-in-a-hurry-3.webp)
 _For demonstration purposes we’ve reviewed and prettified it before posting here. During the jam it was a little messy due the lack of time.
 
-Having the development guide, it was time to start creating the assets on [Photoshop](http://www.adobe.com/products/photoshop.html) and the scenes on [Unity3D](http://unity3d.com/). Here you have some records of this moment:
+Having the development guide, it was time to start creating the assets on [Photoshop](https://www.adobe.com/products/photoshop.html) and the scenes on [Unity3D](http://unity3d.com/). Here you have some records of this moment:
 
 ![kiah_dev](keysmiths-in-a-hurry-4.webp)
 _Assets & Game Scene._
