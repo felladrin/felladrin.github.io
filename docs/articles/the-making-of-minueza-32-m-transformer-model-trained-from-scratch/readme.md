@@ -3,7 +3,7 @@
 This is a long story! To save us time, I’ll write about it as a timeline, shall we?
 
 - It all started with MiniSearch. ([What’s MiniSearch?](https://www.linkedin.com/pulse/introducing-minisearch-minimalist-search-engine-ai-victor-nogueira/))
-- I’ve looked for and found really good small models to run using [Transformers.js](https://xenova.github.io/transformers.js) since [WebLLM](https://webllm.mlc.ai/) depends on WebGPU, which in turn is not yet available on all browsers.
+- I’ve looked for and found really good small models to run using [Transformers.js](https://github.com/huggingface/transformers.js) since [WebLLM](https://webllm.mlc.ai/) depends on WebGPU, which in turn is not yet available on all browsers.
 - I’ve learned that models with more than 500 million parameters ("500M", for short) were not performing well on the browser, as the inference time was too high when using [ONNX](https://onnxruntime.ai/) models with Transformers.js.
 - So the best model I found with less than 500M was [LaMini-Flan-T5-248M](https://huggingface.co/MBZUAI/LaMini-Flan-T5-248M), and since then, this 248M model became my ideal model. However, it was an _encoder-decoder_ model, which has some disadvantages compared to _decoder-only_ models, for my use case.
 - I then [started fine-tuning decoder-only models myself](https://huggingface.co/collections/Felladrin/trained-models-65855d99bae0736365afd2ef), aiming to get one that had the same level as LaMini’s. My first contact with model training was via [AutoTrain](https://huggingface.co/docs/autotrain), training models with a GUI directly on HuggingFace spaces.
