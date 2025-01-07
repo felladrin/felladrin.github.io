@@ -26,7 +26,7 @@ Those were the search criteria I used to filter the candidates (i.e. what the en
 
 1. **Unity** ([https://unity3d.com/](http://unity3d.com/))
 1. **PlayCanvas** ([https://playcanvas.com/](http://playcanvas.com/))
-1. **Superpowers** ([http://superpowers-html5.com/](http://superpowers-html5.com/))
+1. **Superpowers** ([https://sparklinlabs.itch.io/superpowers](https://sparklinlabs.itch.io/superpowers))
 
 And here is an explanation of why, among the three, that was the ranking:
 
