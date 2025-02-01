@@ -4,7 +4,7 @@
 
 When I decided to become a freelancer, I received the support I needed. The people who knew me trusted me. However, there was a common concern: what if it doesn't work out?
 
-Leaving a good job to [become a freelancer can be scary](https://www.thebalancemoney.com/disadvantages-of-freelancing-2164223). But I believed that this mostly happened due to a lack of planning because statistics also showed positive data about freelancers. So I needed to give it a try.
+Leaving a good job to become a freelancer can be scary. But I believed that this mostly happened due to a lack of planning because statistics also showed positive data about freelancers. So I needed to give it a try.
 
 With the strategy of starting small and gradually expanding my portfolio, I tried various platforms that aggregated freelance professionals: [Freelancer.com](https://www.freelancer.com/), [Workana.com](https://www.workana.com/), [Upwork.com](https://www.upwork.com), [Fiverr.com](https://www.fiverr.com/), and others. Offering my services on my own was out of the question because I had already compared the chances I would have using or not using one of these platforms and concluded that, being introverted, it would be better to expose my profile and let clients compare me with other candidates. That's how most of these platforms work.
 
