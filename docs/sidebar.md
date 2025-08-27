@@ -8,7 +8,7 @@
 - **Images & Videos**
   - [Published Images](https://www.redbubble.com/people/VictorNogueira/explore?asc=u&page=1&sortOrder=top%20selling)
   - [Published Videos](https://www.youtube.com/user/Felladrin/videos)
-  - [Recommended Movies](https://www.imdb.com/user/ur36368230/ratings?sort=your_rating,desc&ratingFilter=0&mode=grid&lastPosition=0)
+  - [Recommended Movies](https://www.imdb.com/user/ur36368230/ratings/?sort=top_rated%2Cdesc&view=grid)
 - **Tools**
   - [MiniSearch](https://felladrin-minisearch.hf.space "Minimalist web-searching app with an AI assistant that is always available and runs directly from your browser.")
   - [PickBetterPack](https://pickbetterpack.com "Discover similar packages from your package.json dependencies.")
