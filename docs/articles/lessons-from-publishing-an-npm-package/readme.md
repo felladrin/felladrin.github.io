@@ -36,7 +36,7 @@ Finally, it was in good shape to be shared on the NPM registry. So I logged in v
 
 ## The Storytelling
 
-This step is also important for the new package to have a good start. Developers spread the word about their libs through blog posts ([Changelog.com](https://changelog.com/), [Dev.to](https://dev.to/), [Medium](https://medium.com/), [LinkedIn](https://www.linkedin.com/)), social updates ([Twitter](https://twitter.com/), [Facebook](https://facebook.com/)), chats ([Slack](https://slack.com/), [Discord](https://discord.com/)), answers on Q&A portals ([StackOverflow](https://stackoverflow.com/), [Quora](https://www.quora.com/)), forums, messengers and also in [Meetups](https://www.meetup.com/find/?categoryId=546), [Conferences](https://confs.tech/).
+This step is also important for the new package to have a good start. Developers spread the word about their libs through blog posts ([Changelog.com](https://changelog.com/), [Dev.to](https://dev.to/), [Medium](https://medium.com/), [LinkedIn](https://www.linkedin.com/)), social updates ([Twitter](https://twitter.com/), [Facebook](https://facebook.com/)), chats ([Slack](https://slack.com/), [Discord](https://discord.com/)), answers on Q&A portals ([StackOverflow](https://stackoverflow.com/), [Quora](https://www.quora.com/)), forums, messengers and also in Meetups, [Conferences](https://confs.tech/).
 
 Letting people have a glance at the project highlights using badges helps too. For this, [Shields.io](https://shields.io/) provides almost everything needed.
 
