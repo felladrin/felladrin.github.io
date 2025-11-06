@@ -8,21 +8,21 @@ I always wanted to retribute the community for all those packages I use every da
 
 Fortunately, the opportunity for my contribution came in when I needed a package for dispatching strongly-typed events from one class to another, as in the [Observer Pattern](https://en.wikipedia.org/wiki/Observer_pattern).
 
-Well, in fact, there is a [brunch of solutions for this](https://www.google.com/search?q=(typed+OR+type)+(event+OR+signal)+(dispatcher+OR+emitter)++site:npmjs.com) already shared on NPM. If we close our eyes and click a random search result, we should be in good hands — there are excellent libs! But what I had in mind was very specific.
+Well, in fact, there is a [brunch of solutions for this](<https://www.google.com/search?q=(typed+OR+type)+(event+OR+signal)+(dispatcher+OR+emitter)++site:npmjs.com>) already shared on NPM. If we close our eyes and click a random search result, we should be in good hands — there are excellent libs! But what I had in mind was very specific.
 
 I was looking for a solution providing strongly-typed events that could be publicly listened but internally-only dispatched, fitting for both [TypeScript](https://www.typescriptlang.org/)and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) codebases.
 
 ## The Adventure
 
-Considering I had the whole spec in mind at that point, I decided to give it a try and implement it in [Back Read](https://github.com/felladrin/js13k-2019), a game prototype that I had recently submitted for the [Js13kGames](https://js13kgames.com/entries/back-read) competition.
+Considering I had the whole spec in mind at that point, I decided to give it a try and implement it in [Back Read](https://github.com/felladrin/js13k-2019), a game prototype that I had recently submitted for the [Js13kGames](https://js13kgames.com/games/back-read) competition.
 
-Worked like a charm! I was euphoric! So I quickly extracted the code to a new repository and initialized an NPM package. [Linked](https://docs.npmjs.com/cli/link.html) it to my game repository and… _voilà_! A new package was born!
+Worked like a charm! I was euphoric! So I quickly extracted the code to a new repository and initialized an NPM package. [Linked](https://docs.npmjs.com/cli/link.html) it to my game repository and… *voilà*! A new package was born!
 
 But wait! Not so fast…
 
 ## The Challenge
 
-Having a pack of source files is [not enough](https://changelog.com/posts/top-ten-reasons-why-i-wont-use-your-open-source-project). A decent _Readme_, a well-defined _package.json_, minimal examples, and test coverage are the least we expect when looking for a lib on NPM. So, after reading some articles from experienced package maintainers, I did it all and more.
+Having a pack of source files is [not enough](https://changelog.com/posts/top-ten-reasons-why-i-wont-use-your-open-source-project). A decent *Readme*, a well-defined *package.json*, minimal examples, and test coverage are the least we expect when looking for a lib on NPM. So, after reading some articles from experienced package maintainers, I did it all and more.
 
 By the way, [GitHub](https://github.com/) has nice [Open Source Guides](https://opensource.guide/) for helping with it.
 

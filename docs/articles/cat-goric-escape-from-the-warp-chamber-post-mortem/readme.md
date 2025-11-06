@@ -4,7 +4,7 @@
 
 Space was the theme for the [JS13KGames](https://js13kgames.com/) competition in 2021.
 
-I was able to join on the first day (13th August). And after a month, with more than a hundred hours invested in it, [the game](https://js13kgames.com/entries/cat-goric-escape-from-the-warp-chamber) was submitted!
+I was able to join on the first day (13th August). And after a month, with more than a hundred hours invested in it, [the game](https://js13kgames.com/games/cat-goric-escape-from-the-warp-chamber) was submitted!
 
 But before talking about the making of the game, I need to say why I took part in it: learning. Incredible things happen when we push ourselves to fit a complete game in 13 kilobytes. We discover a lot of unique tools and more efficient ways of developing software. Besides that, all games are open-source, so we grow together with others. [The community](https://twitter.com/search?q=%23js13k) is fantastic!
 
@@ -12,9 +12,9 @@ I tend to create strategy/RPG games cause these are my favorites. Civilization, 
 
 Meanwhile, I've prepared the [game repository](https://github.com/felladrin/js13k-2021) with the structure to quickly build and zip it.
 
-The plan was to make something that could entertain players for at least 5 minutes. And my initial idea was to create a game in which waves of alien spaceships would bombard Earth. The player in control of a global human alliance would strategically place units on the ground to defend it. Game objects would shoot automatically, so it'd be like a vertical tower defense game. And I planned to call it _"Annihilation Came From Space"_.
+The plan was to make something that could entertain players for at least 5 minutes. And my initial idea was to create a game in which waves of alien spaceships would bombard Earth. The player in control of a global human alliance would strategically place units on the ground to defend it. Game objects would shoot automatically, so it'd be like a vertical tower defense game. And I planned to call it *"Annihilation Came From Space"*.
 
-While presenting this idea to my wife, she made me realize it wouldn't be as fun as I imagined. And knowing that I submitted [a strategy game last year](https://js13kgames.com/entries/population-404), it was reasonable. So I decided to try something different. Something that is a trend; that could look interesting at first sight. And that led to cats!
+While presenting this idea to my wife, she made me realize it wouldn't be as fun as I imagined. And knowing that I submitted [a strategy game last year](https://js13kgames.com/games/population-404), it was reasonable. So I decided to try something different. Something that is a trend; that could look interesting at first sight. And that led to cats!
 
 ![My Cat, which was named after the programming language: JS](image-13.webp)
 
@@ -38,7 +38,7 @@ From this point, the design started to change faster. The walls of the shrinking
 
 In the process, I also released an NPM Package ([Create PubSub](https://www.npmjs.com/package/create-pubsub)), which I used to manage the state and flow of the game.
 
-And I was still in doubt about using [Kontra](https://straker.github.io/kontra/) or [Replay](https://replay.js.org/) as the game engine. Still, in the end, I decided to use Kontra for having more built-in features I needed, and also because I had used it in [a previous js13k game](https://js13kgames.com/entries/population-404).
+And I was still in doubt about using [Kontra](https://straker.github.io/kontra/) or [Replay](https://replay.js.org/) as the game engine. Still, in the end, I decided to use Kontra for having more built-in features I needed, and also because I had used it in [a previous js13k game](https://js13kgames.com/games/population-404).
 
 [![Kontra Logo](image-3.webp)](https://straker.github.io/kontra/)
 
@@ -87,7 +87,7 @@ Adding levels was pretty easy, as they are simply based in two arrays holding po
 
 ![The "Level Editor"](image-11.webp)
 
-The game was submitted a couple of hours before the deadline, and it's available on its [JS13K Game Page](https://js13kgames.com/entries/cat-goric-escape-from-the-warp-chamber), along with [222 other games](https://js13kgames.com/entries/2021) that we're now [judging](https://medium.com/js13kgames/voting-and-feedback-7aa38c8b4c2e) to find out the most loved ones! (Check the [Top 10 from last year](https://github.blog/2020-10-11-top-ten-games-from-the-js13k-2020-competition/)!)
+The game was submitted a couple of hours before the deadline, and it's available on its [JS13K Game Page](https://js13kgames.com/games/cat-goric-escape-from-the-warp-chamber), along with [222 other games](https://js13kgames.com/games/2021) that we're now [judging](https://medium.com/js13kgames/voting-and-feedback-7aa38c8b4c2e) to find out the most loved ones! (Check the [Top 10 from last year](https://github.blog/2020-10-11-top-ten-games-from-the-js13k-2020-competition/)!)
 
 And I've already seen some people playing it! ([Pablo Tescospar on Twitch](https://www.twitch.tv/videos/1150579150?t=00h58m32s))  
 [![Pablo Tescospar on Twitch](image-12.webp)](https://www.twitch.tv/videos/1150579150?t=00h58m32s)
