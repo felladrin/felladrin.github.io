@@ -58,9 +58,9 @@ Almost all assets were defined! It was a little over the 13 KB limit, though. Ev
 
 ![Alt text](image-7.webp)
 
-It's worth mentioning that the bundle was generated with [Vite](https://vitejs.dev/), and the code was written entirely in [Typescript](https://www.typescriptlang.org/).
+It's worth mentioning that the bundle was generated with [Vite](https://vite.dev/), and the code was written entirely in [Typescript](https://www.typescriptlang.org/).
 
-[![Vite and Typescript](image-8.webp)](https://vitejs.dev/)
+[![Vite and Typescript](image-8.webp)](https://vite.dev/)
 
 Then, while investigating ways to improve the compression, two things were changed.
 
