@@ -17,6 +17,6 @@ And you don’t ever need to remember this generated password. KeePass can auto-
 
 The ideal scenario is having a unique password for each site/service you have an account. So in case of a breach on one of them, you’ll just need to change the password for one site.
 
-And I’ve chosen KeePass over [LastPass](https://lastpass.com), [Dashlane](https://www.dashlane.com/) or any other online password manager mainly because I wanted to have the database under my control and keep it accessible off-line.
+And I’ve chosen KeePass over [LastPass](https://www.lastpass.com), [Dashlane](https://www.dashlane.com/) or any other online password manager mainly because I wanted to have the database under my control and keep it accessible off-line.
 
 Is there anything else I could tell about how I manage passwords? If so, feel free to ask and I’ll try to answer the best way I can.
