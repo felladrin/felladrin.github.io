@@ -4,7 +4,7 @@ I'm excited to announce the release of my last project, MiniSearch.
 
 I admire Perplexity.ai, Phind.com, You.com, Bing, Bard and all these search engines integrated with AI chatbots. And as a curious developer, I took the chance and created my own version.
 
-Using [Web-LLM](https://webllm.mlc.ai/) and [Transformers.js](https://huggingface.co/docs/transformers.js) to provide browser-based text-generation models on desktop and mobile, I built a minimalist self-hosted search app on which an AI analyses the results, comments on them and responds to your query summarising the info. In the backend, it still queries a real search engine, but besides that, there's no other remote connection happening.
+Using [Web-LLM](https://webllm.mlc.ai/) and [Transformers.js](https://huggingface.co/docs/transformers.js/index) to provide browser-based text-generation models on desktop and mobile, I built a minimalist self-hosted search app on which an AI analyses the results, comments on them and responds to your query summarising the info. In the backend, it still queries a real search engine, but besides that, there's no other remote connection happening.
 
 For running in the browser and on mobiles, lightweight models are required, so we can't expect them to give stellar answers, but there are a few advantages of using this over the services as mentioned earlier:
 
