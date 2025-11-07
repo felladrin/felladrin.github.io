@@ -1,4 +1,3 @@
-
 # Connecting Developers to Companies with Suitable Job Vacancies Through Brazilian Platforms
 
 Out of curiosity, I registered my profile on some matching platforms for developers and opportunities in the IT field here in Brazil. The result surprised me.
@@ -9,7 +8,7 @@ In other words, the platforms deliver what they promise. And for that reason, I'
 
 ProgramaThor: https://programathor.com.br
 
-GeekHunter: https://geekhunter.com.br
+GeekHunter: https://www.geekhunter.com.br
 
 Some of them allow you to improve your position in the search results viewed by recruiters, simply by completing proficiency tests (javascript, python, java, ruby, etc.) within the platform itself.
 
