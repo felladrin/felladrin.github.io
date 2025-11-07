@@ -13,7 +13,7 @@ We’ve met online at _talk.gg_ just a few minutes before the theme announcement
 7. _Game publishing_
 8. _Post-Mortem writing_
 
-As soon as they announced the theme, we’ve started the brainstorm. Monsters, food, spaceships, rogue-like, quiz, game board, popcorn and a lot of crazy ideas… Until we finally got to the _key-idea:_ to shapeshift keys for npcs that would tell a single-line story about why they needed a key. So this was the first mockup, made on _Flockdraw_:
+As soon as they announced the theme, we’ve started the brainstorm. Monsters, food, spaceships, rogue-like, quiz, game board, popcorn and a lot of crazy ideas… Until we finally got to the *key-idea:* to shapeshift keys for npcs that would tell a single-line story about why they needed a key. So this was the first mockup, made on *Flockdraw*:
 
 [![mockup1](keysmiths-in-a-hurry-1.webp)](http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=46558)
 _1º Mockup for Keysmith’s in a hurry!_
@@ -30,9 +30,9 @@ Next step: writing the SGDD. _[SGDD stands for Short Game Design Document, a dev
 We did it collaboratively using [Google Docs](https://docs.google.com/):
 
 ![sgdd](keysmiths-in-a-hurry-3.webp)
-_For demonstration purposes we’ve reviewed and prettified it before posting here. During the jam it was a little messy due the lack of time.
+\_For demonstration purposes we’ve reviewed and prettified it before posting here. During the jam it was a little messy due the lack of time.
 
-Having the development guide, it was time to start creating the assets on [Photoshop](https://www.adobe.com/products/photoshop.html) and the scenes on [Unity3D](http://unity3d.com/). Here you have some records of this moment:
+Having the development guide, it was time to start creating the assets on [Photoshop](https://www.adobe.com/products/photoshop.html) and the scenes on [Unity3D](https://unity.com/). Here you have some records of this moment:
 
 ![kiah_dev](keysmiths-in-a-hurry-4.webp)
 _Assets & Game Scene._

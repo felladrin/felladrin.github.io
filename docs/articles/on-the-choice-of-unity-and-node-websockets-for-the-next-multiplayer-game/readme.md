@@ -23,7 +23,7 @@ Those were the search criteria I used to filter the candidates (i.e. what the en
 
 **To the podium went up:**
 
-1. **Unity** ([https://unity3d.com/](http://unity3d.com/))
+1. **Unity** ([https://unity3d.com/](https://unity.com/))
 1. **PlayCanvas** ([https://playcanvas.com/](https://playcanvas.com/))
 1. **Superpowers** ([https://sparklinlabs.itch.io/superpowers](https://sparklinlabs.itch.io/superpowers))
 
