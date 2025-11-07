@@ -87,7 +87,7 @@ Adding levels was pretty easy, as they are simply based in two arrays holding po
 
 ![The "Level Editor"](image-11.webp)
 
-The game was submitted a couple of hours before the deadline, and it's available on its [JS13K Game Page](https://js13kgames.com/games/cat-goric-escape-from-the-warp-chamber), along with [222 other games](https://js13kgames.com/games/2021) that we're now [judging](https://medium.com/js13kgames/voting-and-feedback-7aa38c8b4c2e) to find out the most loved ones! (Check the [Top 10 from last year](https://github.blog/2020-10-11-top-ten-games-from-the-js13k-2020-competition/)!)
+The game was submitted a couple of hours before the deadline, and it's available on its [JS13K Game Page](https://js13kgames.com/games/cat-goric-escape-from-the-warp-chamber), along with [222 other games](https://js13kgames.com/2021/games) that we're now [judging](https://medium.com/js13kgames/voting-and-feedback-7aa38c8b4c2e) to find out the most loved ones! (Check the [Top 10 from last year](https://github.blog/2020-10-11-top-ten-games-from-the-js13k-2020-competition/)!)
 
 And I've already seen some people playing it! ([Pablo Tescospar on Twitch](https://www.twitch.tv/videos/1150579150?t=00h58m32s))  
 [![Pablo Tescospar on Twitch](image-12.webp)](https://www.twitch.tv/videos/1150579150?t=00h58m32s)
