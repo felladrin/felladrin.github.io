@@ -24,7 +24,7 @@ I needed a hand with art for this case, so I started looking into [Game Assets 
 
 But the problem with this idea was that people would play at a maximum of three rounds cause there's not much to do or discover. Also, the randomness of the obstacles would make the game lucky-based.
 
-So I discarded the idea and started thinking about the last game we played together: [Captain Toad: Treasure Tracker](https://www.nintendo.com/games/detail/captain-toad-treasure-tracker-switch/) - which is a puzzle game. With puzzles, I could let players engaged for more time.
+So I discarded the idea and started thinking about the last game we played together: [Captain Toad: Treasure Tracker](https://www.nintendo.com/us/store/products/captain-toad-treasure-tracker-switch/) - which is a puzzle game. With puzzles, I could let players engaged for more time.
 
 I had the portal, the cat and the items I wanted to use, so I just needed to find a few more assets in Itch.io. At this point, I also had a color pattern based on the portal sprite sheet, so I picked a matching [color palette](https://coolors.co/d9ed92-b5e48c-99d98c-76c893-52b69a-34a0a4-168aad-1a759f-1e6091-184e77) on [Coolors](https://coolors.co/) to follow.
 
