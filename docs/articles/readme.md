@@ -4,7 +4,6 @@
 - [Introducing MiniSearch - A minimalist search engine with integrated browser-based AI](./introducing-mini-search-a-minimalist-search-engine-with-integrated-browser-based-ai/readme.md)
 - [Tips for selling on print-on-demand marketplaces](./tips-for-selling-on-print-on-demand-marketplaces/readme.md)
 - [It happened when ChatGPT met GPT4All in a bar...](./it-happened-when-chat-gpt-met-gpt-4-all-in-a-bar/readme.md)
-- [PickBetterPack is now open source!](./pickbetterpack-is-now-open-source/readme.md)
 - [Cat Goric: Escape from the Warp Chamber - Post-Mortem](./cat-goric-escape-from-the-warp-chamber-post-mortem/readme.md)
 - [Lessons from publishing an NPM Package](./lessons-from-publishing-an-npm-package/readme.md)
 - [80 Extraordinary Submissions From Js13kGames 2019!](./80-extraordinary-submissions-from-js13kgames-2019/readme.md)
