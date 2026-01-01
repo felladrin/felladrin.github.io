@@ -39,7 +39,7 @@ _Assets & Game Scene._
 
 With the assets and scenes in hand, it was time to make a game of it. Make the static become dynamic. At the moment we started programming, we remembered to turn [Chronolapse](https://github.com/collingreen/chronolapse) on: [https://goo.gl/S89bY3](https://goo.gl/S89bY3)
 
-The game was all scripted using [MonoDevelop](http://www.monodevelop.com/). Meanwhile the soundtracks were being created with [Cubase](http://www.steinberg.net/en/products/cubase/start.html). Also we’ve included sounds on buttons and made some improvements on the UI:
+The game was all scripted using [MonoDevelop](http://www.monodevelop.com/). Meanwhile the soundtracks were being created with [Cubase](https://www.steinberg.net/cubase/). Also we’ve included sounds on buttons and made some improvements on the UI:
 
 ![Keysmith's in a hurry! on Unity3D](keysmiths-in-a-hurry-5.webp)
 _Our game on Unity3D._
