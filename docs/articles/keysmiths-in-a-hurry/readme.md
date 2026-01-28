@@ -37,7 +37,7 @@ Having the development guide, it was time to start creating the assets on [Photo
 ![kiah_dev](keysmiths-in-a-hurry-4.webp)
 _Assets & Game Scene._
 
-With the assets and scenes in hand, it was time to make a game of it. Make the static become dynamic. At the moment we started programming, we remembered to turn [Chronolapse](https://github.com/collingreen/chronolapse) on: [https://goo.gl/S89bY3](https://goo.gl/S89bY3)
+With the assets and scenes in hand, it was time to make a game of it. Make the static become dynamic. At the moment we started programming, we remembered to turn [Chronolapse](https://github.com/collingreen/chronolapse) on: [Keysmith's in a hurry! - Ludum Dare 35 Development Timelapse](https://www.youtube.com/watch?v=WKV9eB3anYM)
 
 The game was all scripted using [MonoDevelop](http://www.monodevelop.com/). Meanwhile the soundtracks were being created with [Cubase](https://www.steinberg.net/cubase/). Also we’ve included sounds on buttons and made some improvements on the UI:
 
