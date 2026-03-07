@@ -25,7 +25,7 @@ _3º Mockup for Keysmith’s in a hurry!_
 
 With the mechanics and interface defined we could start thinking about the name. We’ve came across a lot of ideas. From the ok ones (_Keymaker; Keymaster Legacy; Keystorm_) to the awful ones (_The Insane Adventure of the All-Keys Maker; Lord of the Keys; Keymberly!_). In the end, we’ve picked the name _“Keysmith’s in a hurry!”_ mainly because how it sounds. Also, no game has ever been made with that name.
 
-Next step: writing the SGDD. _[SGDD stands for Short Game Design Document, a development documentation method for small-size games. Original article, in brazilian portuguese: [https://goo.gl/wNf46h](https://goo.gl/wNf46h)]_
+Next step: writing the SGDD. _[SGDD stands for Short Game Design Document, a development documentation method for small-size games. See the original article, in brazilian portuguese, [here](https://www.academia.edu/18866815/Short_game_design_document_SGDD_documento_de_game_design_aplicado_a_jogos_de_pequeno_porte_e_advergames).]_
 
 We did it collaboratively using [Google Docs](https://docs.google.com/):
 
