@@ -1,5 +1,7 @@
 # Articles
 
+- [We Are a Band!](./we-are-a-band/readme.md)
+- [Death](./death/readme.md)
 - [The making of Minueza-32M](./the-making-of-minueza-32-m-transformer-model-trained-from-scratch/readme.md)
 - [Introducing MiniSearch - A minimalist search engine with integrated browser-based AI](./introducing-mini-search-a-minimalist-search-engine-with-integrated-browser-based-ai/readme.md)
 - [It happened when ChatGPT met GPT4All in a bar...](./it-happened-when-chat-gpt-met-gpt-4-all-in-a-bar/readme.md)
