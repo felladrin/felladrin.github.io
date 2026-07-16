@@ -1,5 +1,6 @@
 # Articles
 
+- [Overcoming obstacles](./overcoming-obstacles/readme.md)
 - [We Are a Band!](./we-are-a-band/readme.md)
 - [Death](./death/readme.md)
 - [The making of Minueza-32M](./the-making-of-minueza-32-m-transformer-model-trained-from-scratch/readme.md)
