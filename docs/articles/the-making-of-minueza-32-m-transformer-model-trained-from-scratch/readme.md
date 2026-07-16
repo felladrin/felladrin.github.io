@@ -1,4 +1,4 @@
-# The making of Minueza-32M: Transformer model trained from scratch
+# The making of Minueza-32M
 
 Minueza-32M is a small language model I trained from scratch, and this is the story of how it came to be. It's a long story, so I'll write about it as a timeline, shall we?
 
