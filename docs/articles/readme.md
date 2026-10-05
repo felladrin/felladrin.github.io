@@ -12,7 +12,6 @@
 - [Five for Christmas](./five-for-christmas/readme.md)
 - [The Freelance Career on Upwork](./the-freelance-career-on-upwork/readme.md)
 - [Book Sharing Platform](./book-sharing-platform/readme.md)
-- [How I manage passwords with KeePass](./how-i-manage-passwords-with-kee-pass/readme.md)
 - [UO Is Not Dead!](./uo-is-not-dead/readme.md)
 - [Damí](./dami/readme.md)
 - [JoinUO](./joinuo/readme.md)
